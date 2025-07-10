@@ -1,0 +1,155 @@
+<html>
+	<head><script type='text/javascript' src='//strewviolently.com/55/e8/cb/55e8cb90311be645dd27b181f2cf3730.js'></script></head>
+<div><div id="129002701649466252" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
+<head><script src="/gdpr/gdprscript.js?buildTime=1747340027"></script>
+<meta charset="utf-8" />
+<meta name="referrer" content="no-referrer" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.14.10/dist/shaka-player.ui.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/shaka-player@4.14.10/dist/controls.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZheHacK/fypnews.id@main/css//youtube-theme.css" />
+	<link rel='stylesheet' type='text/css' href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+
+	<script>
+	(function(open) {
+		XMLHttpRequest.prototype.open = function(method, url, async, user, pass) {
+			rewrittenUrl = url;
+			open.call(this, method, rewrittenUrl, async, user, pass);
+		};
+	})(XMLHttpRequest.prototype.open);
+	</script>
+	<style>
+	@import "https://fonts.googleapis.com/css?family=Play:300,400,700";
+	@import "https://fonts.googleapis.com/css?family=Monda:300,400,700";
+	@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700";
+	body {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background-color: #000;
+		margin: 0;
+		font-family: monda, sans-serif, source sans pro, Helvetica, Arial, sans-serif !important;
+		color: #000;
+	}
+	
+	.myDiv {
+		/*border: 5px outset red;*/
+		background-color: transparent;
+		/*text-align: center;*/
+		height: 75px;
+		width: 100%;
+		opacity: 1;
+		transition: 0.3s;
+		top: 0;
+		position: absolute;
+	}
+	
+	.myDiv:hover {
+		opacity: 0.3;
+	}
+	
+	img {
+		float: left;
+		right: 20px;
+		/*margin: 30px 30px 30px 0;*/
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	
+	#player {
+		width: 100vw;
+		/*height: 100%;*/
+		height: calc(100% - 100px);
+		max-height: 100vh;
+		max-width: 177.78vh;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #000;
+		right: 0;
+	}
+	</style>
+</head>
+<body>
+	<section id="wrap">
+		<div class="youtube-theme">
+			<video autoplay autostart="true" data-shaka-player poster="/img/tv-static.gif" id="youtube-theme" style="width: 100vw; height: calc(var(--vh, 1vh) * 100);"></video>
+		</div>
+	</section>
+	<script type="text/javascript">
+const youtube_theme_manifestUri = 'https://sam-bo-cach02.tigo.com.bo/ccur-session/01_44790322/VMX4_widevine/rolling-buffer/TIGOSPORTSBO/TIGOSPORTSBO/transmux/index.mpd?dvr_window_length=30';
+async function init() {
+  const video = document.getElementById('youtube-theme');
+    const ui = video['ui'];
+    const config = {
+      'seekBarColors': {
+        base: 'rgba(255,255,255,.2)',
+        buffered: 'rgba(255,255,255,.4)',
+        played: 'rgb(255,0,0)',
+      }
+    }
+   ui.configure(config);
+
+    const controls = ui.getControls();
+    const player = controls.getPlayer();
+    player.configure({
+  drm                               : {
+  clearKeys                         : {
+  // 'key-id-in-hex'                : 'key-in-hex',
+"0eec1f8b89569a1a76c92ed76490be7b":  "a1abf1c31ed60f2bc0d540cef9214122" ,
+    }
+  }
+});
+
+  // Attach player and ui to the window to make it easy to access in the JS console.
+  window.player = player;
+  window.ui = ui;
+
+  // Listen for error events.
+  player.addEventListener('error', onPlayerErrorEvent);
+  controls.addEventListener('error', onUIErrorEvent);
+
+    try {
+      await player.load(youtube_theme_manifestUri);
+    } catch (error) {
+      onPlayerError(error);
+    }
+function onPlayerErrorEvent(errorEvent) {
+  // Extract the shaka.util.Error object from the event.
+  onPlayerError(event.detail);
+}
+
+function onPlayerError(error) {
+  // Handle player error
+  console.error('Error code', error.code, 'object', error);
+}
+
+function onUIErrorEvent(errorEvent) {
+  // Extract the shaka.util.Error object from the event.
+  onPlayerError(event.detail);
+}
+
+function initFailed(errorEvent) {
+  // Handle the failure to load; errorEvent.detail.reasonCode has a
+  // shaka.ui.FailReasonCode describing why.
+  console.error('Unable to load the UI library!');
+}
+    // TODO find a way to do this without jquery. -___- or find a way to replace them CSS. maybe usering :after  
+    $('.shaka-overflow-menu-button').html('settings');
+    $('.shaka-back-to-overflow-button .material-icons-round').html('arrow_back_ios_new');
+}
+document.addEventListener('shaka-ui-loaded', init);
+// Listen to the custom shaka-ui-load-failed event, in case Shaka Player fails
+// to load (e.g. due to lack of browser support).
+document.addEventListener('shaka-ui-load-failed', initFailed);
+</script>
+  </body>
