@@ -1,155 +1,245 @@
+<!DOCTYPE html>
 <html>
-	<head><script type='text/javascript' src='//strewviolently.com/55/e8/cb/55e8cb90311be645dd27b181f2cf3730.js'></script></head>
-<div><div id="129002701649466252" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-<head><script src="/gdpr/gdprscript.js?buildTime=1747340027"></script>
-<meta charset="utf-8" />
-<meta name="referrer" content="no-referrer" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.14.10/dist/shaka-player.ui.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/shaka-player@4.14.10/dist/controls.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZheHacK/fypnews.id@main/css//youtube-theme.css" />
-	<link rel='stylesheet' type='text/css' href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<head>
+    <title>Shaka Player en Kodular - AutoPlay con Audio (Intento)</title>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<script>
-	(function(open) {
-		XMLHttpRequest.prototype.open = function(method, url, async, user, pass) {
-			rewrittenUrl = url;
-			open.call(this, method, rewrittenUrl, async, user, pass);
-		};
-	})(XMLHttpRequest.prototype.open);
-	</script>
-	<style>
-	@import "https://fonts.googleapis.com/css?family=Play:300,400,700";
-	@import "https://fonts.googleapis.com/css?family=Monda:300,400,700";
-	@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700";
-	body {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		left: 0;
-		background-color: #000;
-		margin: 0;
-		font-family: monda, sans-serif, source sans pro, Helvetica, Arial, sans-serif !important;
-		color: #000;
-	}
-	
-	.myDiv {
-		/*border: 5px outset red;*/
-		background-color: transparent;
-		/*text-align: center;*/
-		height: 75px;
-		width: 100%;
-		opacity: 1;
-		transition: 0.3s;
-		top: 0;
-		position: absolute;
-	}
-	
-	.myDiv:hover {
-		opacity: 0.3;
-	}
-	
-	img {
-		float: left;
-		right: 20px;
-		/*margin: 30px 30px 30px 0;*/
-		margin-left: 30px;
-		margin-top: 20px;
-	}
-	
-	#player {
-		width: 100vw;
-		/*height: 100%;*/
-		height: calc(100% - 100px);
-		max-height: 100vh;
-		max-width: 177.78vh;
-		margin: auto;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		background-color: #000;
-		right: 0;
-	}
-	</style>
+    <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.14.10/dist/shaka-player.compiled.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+
+    <style>
+        /* Estilos básicos para que el video ocupe toda la pantalla */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Evita barras de desplazamiento */
+            background-color: black; /* Fondo negro por defecto */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Asegura que el video se vea completo dentro del contenedor */
+            background-color: black; /* Fondo del reproductor de video */
+        }
+
+        /* Oculta el botón de unmute, ya que intentaremos reproducir con audio directamente */
+        #unmuteButton {
+            display: none !important; 
+        }
+
+        /* Estilo para mensajes de error */
+        .error-message {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            z-index: 100;
+        }
+    </style>
 </head>
 <body>
-	<section id="wrap">
-		<div class="youtube-theme">
-			<video autoplay autostart="true" data-shaka-player poster="/img/tv-static.gif" id="youtube-theme" style="width: 100vw; height: calc(var(--vh, 1vh) * 100);"></video>
-		</div>
-	</section>
-	<script type="text/javascript">
-const youtube_theme_manifestUri = 'https://sam-bo-cach02.tigo.com.bo/ccur-session/01_44790322/VMX4_widevine/rolling-buffer/TIGOSPORTSBO/TIGOSPORTSBO/transmux/index.mpd?dvr_window_length=30';
-async function init() {
-  const video = document.getElementById('youtube-theme');
-    const ui = video['ui'];
-    const config = {
-      'seekBarColors': {
-        base: 'rgba(255,255,255,.2)',
-        buffered: 'rgba(255,255,255,.4)',
-        played: 'rgb(255,0,0)',
-      }
-    }
-   ui.configure(config);
+    <video id="videoPlayer" autoplay></video>
 
-    const controls = ui.getControls();
-    const player = controls.getPlayer();
-    player.configure({
-  drm                               : {
-  clearKeys                         : {
-  // 'key-id-in-hex'                : 'key-in-hex',
-"0eec1f8b89569a1a76c92ed76490be7b":  "a1abf1c31ed60f2bc0d540cef9214122" ,
-    }
-  }
-});
+    <button id="unmuteButton">Activar Sonido</button> 
 
-  // Attach player and ui to the window to make it easy to access in the JS console.
-  window.player = player;
-  window.ui = ui;
+    <script type="text/javascript">
+        // --- Función para enviar mensajes a Kodular (esencial para depuración) ---
+        function logToKodular(message) {
+            if (window.AppInventor && window.AppInventor.setWebViewString) {
+                window.AppInventor.setWebViewString(message);
+            } else {
+                console.log("Kodular Debug: " + message);
+            }
+        }
+        // --------------------------------------------------------------------------
 
-  // Listen for error events.
-  player.addEventListener('error', onPlayerErrorEvent);
-  controls.addEventListener('error', onUIErrorEvent);
+        // La URL de tu manifiesto. Vuelve a verificar si es la correcta y accesible.
+        const manifestUri = 'https://sam-py-edge05.tigo.com.py/ccur-session/7f6e3fdb59994965abed8dd5c6faccf517487270122031b65a320aeed11ebae01d90082191a3c1a5MrOL1SVX7zpX7GuV2tRmo/VMX4_widevine/rolling-buffer/TigoSportsHD/TigoSportsHD/transmux/index.mpd';
 
-    try {
-      await player.load(youtube_theme_manifestUri);
-    } catch (error) {
-      onPlayerError(error);
-    }
-function onPlayerErrorEvent(errorEvent) {
-  // Extract the shaka.util.Error object from the event.
-  onPlayerError(event.detail);
-}
+        async function initApp() {
+            logToKodular('1. Aplicación HTML cargada y DOM listo. Iniciando Shaka Player...');
 
-function onPlayerError(error) {
-  // Handle player error
-  console.error('Error code', error.code, 'object', error);
-}
+            shaka.polyfill.installAll();
+            logToKodular('2. Shaka Polyfills instalados.');
 
-function onUIErrorEvent(errorEvent) {
-  // Extract the shaka.util.Error object from the event.
-  onPlayerError(event.detail);
-}
+            const video = document.getElementById('videoPlayer');
+            if (!video) {
+                logToKodular('ERROR: Elemento de video no encontrado. ID incorrecto?');
+                displayError('Error de HTML', 'Elemento de video no encontrado. ID incorrecto?');
+                return;
+            }
+            logToKodular('3. Elemento de video (' + video.id + ') obtenido.');
 
-function initFailed(errorEvent) {
-  // Handle the failure to load; errorEvent.detail.reasonCode has a
-  // shaka.ui.FailReasonCode describing why.
-  console.error('Unable to load the UI library!');
-}
-    // TODO find a way to do this without jquery. -___- or find a way to replace them CSS. maybe usering :after  
-    $('.shaka-overflow-menu-button').html('settings');
-    $('.shaka-back-to-overflow-button .material-icons-round').html('arrow_back_ios_new');
-}
-document.addEventListener('shaka-ui-loaded', init);
-// Listen to the custom shaka-ui-load-failed event, in case Shaka Player fails
-// to load (e.g. due to lack of browser support).
-document.addEventListener('shaka-ui-load-failed', initFailed);
-</script>
-  </body>
+            const player = new shaka.Player(video);
+            window.player = player; 
+            logToKodular('4. Instancia de Shaka Player creada.');
+
+            player.configure({
+                drm: {
+                    clearKeys: {
+                        "b52a7fa91fb031a3d6f2a505414b6fcd": "a655a22f9c0a66574b5d95dee212fbf9",
+                    }
+                }
+            });
+            logToKodular('5. Configuración de DRM (Clear Keys) aplicada.');
+
+            player.addEventListener('error', onPlayerErrorEvent);
+            logToKodular('6. Listener de errores añadido.');
+
+            try {
+                logToKodular('7. Intentando cargar manifiesto: ' + manifestUri);
+                await player.load(manifestUri);
+                logToKodular('8. Manifiesto cargado con éxito!');
+
+                // Intentar reproducir el video. Esto PUEDE ser bloqueado si el audio está presente y no hay gesto del usuario.
+                try {
+                    const playPromise = video.play();
+                    if (playPromise !== undefined) {
+                        playPromise.then(() => {
+                            logToKodular('9. Video está reproduciendo automáticamente con audio.');
+                        }).catch(error => {
+                            // La reproducción automática fue bloqueada.
+                            logToKodular('ADVERTENCIA: Autoplay con audio fue impedido. Error: ' + error.name + ' - ' + error.message);
+                            displayError('Reproducción Automática Bloqueada', 'Toca la pantalla para reproducir el video con sonido.', true);
+                            
+                            // Opcional: Si el autoplay falla, puedes mutear y reintentar, o mostrar un botón de play.
+                            // video.muted = true;
+                            // video.play();
+                            // logToKodular('Video se reproduce silenciado después de que el autoplay con audio fallara.');
+                        });
+                    }
+                } catch (generalPlayError) {
+                    // Esto puede ocurrir si video.play() lanza un error síncrono.
+                    logToKodular('ERROR SÍNCRONO al intentar play(): ' + generalPlayError.message);
+                    displayError('Error de Play', generalPlayError.message);
+                }
+
+            } catch (error) {
+                onPlayerError(error);
+                logToKodular('ERROR FATAL al cargar el video: Código ' + error.code + ', Mensaje: ' + error.message);
+            }
+        }
+
+        // --- Funciones de manejo de errores y visualización ---
+        function onPlayerErrorEvent(event) {
+            onPlayerError(event.detail);
+        }
+
+        function onPlayerError(error) {
+            console.error('Shaka Player Error:', error);
+            let errorMessage = 'Error desconocido al cargar el video.';
+            if (error && error.code) {
+                errorMessage = `Código: ${error.code}<br>`;
+                if (error.message) errorMessage += `Mensaje: ${error.message}`;
+                
+                // Errores comunes de Shaka Player que puedes traducir o manejar
+                if (error.code === 6001) errorMessage = "Fallo de red al cargar el manifiesto. Revisa tu conexión.";
+                else if (error.code === 4012) errorMessage = "Contenido no soportado por el navegador/dispositivo.";
+                else if (error.code === 6006) errorMessage = "Fallo de DRM. Las claves o licencias son incorrectas.";
+            }
+            displayError('Error de Reproducción', errorMessage);
+        }
+
+        function displayError(title, message, interactive = false) {
+            let errorContainer = document.querySelector('.error-message');
+            if (!errorContainer) {
+                errorContainer = document.createElement('div');
+                errorContainer.className = 'error-message';
+                document.body.appendChild(errorContainer);
+            }
+            errorContainer.innerHTML = `<h1>${title}</h1><p>${message}</p>`;
+
+            if (interactive) {
+                errorContainer.onclick = () => {
+                    const video = document.getElementById('videoPlayer');
+                    if (video) {
+                        video.play().then(() => {
+                            errorContainer.remove(); // Oculta el mensaje si se reproduce
+                            logToKodular('Video reproducido por interacción del usuario.');
+                        }).catch(e => {
+                            logToKodular('Fallo al reproducir por interacción: ' + e.message);
+                            errorContainer.innerHTML += '<p style="color:yellow;">Error al intentar reproducir. ' + e.message + '</p>';
+                        });
+                    }
+                };
+                errorContainer.style.cursor = 'pointer';
+                errorContainer.innerHTML += '<p style="font-size: 16px; margin-top: 15px;">(Toca aquí para intentar reproducir)</p>';
+            } else {
+                 errorContainer.style.cursor = 'default';
+                 errorContainer.onclick = null;
+            }
+            logToKodular(`Mostrando error: ${title} - ${message}`);
+        }
+        // -------------------------------------------------------------
+
+        // Asegúrate de que el DOM esté completamente cargado antes de inicializar Shaka Player.
+        document.addEventListener('DOMContentLoaded', initApp);
+
+        // --- Funciones para control desde Kodular (opcional) ---
+        // Puedes llamar a estas funciones usando WebViewer.Run Javascript en Kodular.
+        window.muteVideo = function() {
+            const video = document.getElementById('videoPlayer');
+            if (video) {
+                video.muted = true;
+                logToKodular('Video muteado desde Kodular.');
+            }
+        };
+
+        window.unmuteVideo = function() {
+            const video = document.getElementById('videoPlayer');
+            if (video) {
+                video.muted = false;
+                logToKodular('Video desmuteado desde Kodular.');
+            }
+        };
+
+        window.toggleMute = function() {
+            const video = document.getElementById('videoPlayer');
+            if (video) {
+                video.muted = !video.muted;
+                logToKodular('Mute/Unmute alternado a: ' + video.muted);
+            }
+        };
+
+        window.playVideo = function() {
+            const video = document.getElementById('videoPlayer');
+            if (video) {
+                video.play().then(() => {
+                    logToKodular('Video reproducido desde Kodular.');
+                }).catch(e => {
+                    logToKodular('Fallo al reproducir desde Kodular: ' + e.message);
+                });
+            }
+        };
+
+        window.pauseVideo = function() {
+            const video = document.getElementById('videoPlayer');
+            if (video) {
+                video.pause();
+                logToKodular('Video pausado desde Kodular.');
+            }
+        };
+    </script>
+</body>
+</html>
