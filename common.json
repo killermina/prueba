@@ -5,43 +5,39 @@
     "title": "🇵🇾TIGO SPORTS🇵🇾",
     "items": [
 {
-        "name": "CERRO VS LIBERTAD EVENTOS⚽ ",
-        "url": "https://4zeu518ua.s3.us-east-1.amazonaws.com/live/stream10/index.m3u8",
-        "icono": "https://i.postimg.cc/d08sznwn/dd6c90a2-7550-40c9-9e02-e97a73031199.jpg",
-         "type": "hls",
-        "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
-        "headers": [
-            {
-                "name": "Origin",
-                "value": "https://elverruca.tech"
-            },
-            {
-                "name": "Referer",
-                "value": "https://elverruca.tech/"
-            }
-          
-        ]
+        "name": "24/7 Prueba ",
+        "url": "https://digital-tv.net/canales/PHPS/angel/carlosrf.m3u8",
+        "icono": "https://i.ibb.co/ynYh1YQ9/tigo-En-Vivo.png",
+         "type": "hls"
+       
+    },
+      {
+        "name": "24/7 Prueba Plus",
+        "url": "https://digital-tv.net/canales/PHPS/angel/vitaci9067.m3u8",
+        "icono": "https://i.ibb.co/Y7tjqJ1M/tigo-En-Vivo-Plus.png",
+         "type": "hls"
+       
     },
  {
-        "name": "EVENTO 1",
+        "name": "EVENTO 1 HD",
         "url": "https://d3kzwqwnq1f7tq.cloudfront.net/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://dl.dropboxusercontent.com/scl/fi/bify73qa6pam1h5op5mg4/tigo3.json?rlkey=r2r6qmvzobpn1tib3n068ap1z&st=2jfgsr87&dl=0",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
       {
-        "name": "EVENTOS PLUS",
+        "name": "EVENTOS PLUS HD",
         "url": "https://d2jluxxgx550su.cloudfront.net/out/v1/62de20495af84f908fa8963f50c44d46/index.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://dl.dropbox.com/scl/fi/wbw3yya7vk1f3ivn650ug/tigo4.txt?rlkey=ozbktawdgz3ir2ydtm4qez3om&st=8nrn8w9m&dl=0",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
  {
-        "name": "EVENTOS 3",
+        "name": "EVENTOS 3 HD",
         "url": "https://sam-py-edge01.tigo.com.py/ccur-session/e319b1151f2d4f6682d5ccbb56be311417486357322181b65a320aeed11ebae01d90082191a3cTfPoq7bcpzIioW1uMA4mxQSR/out/v1/c2cc7832b5b64aedacb0e459fd9d8398/index.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=3104af5254534d43a98319238dcb6f00&key=8f4af52cf6c144a6499244e542d92680",
-        "icono": "https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/634.png"
+        "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
     },
 {
         "name": "TIGO WEB 1",
@@ -63,11 +59,7 @@
   "image": "https://i.ibb.co/k6cgFLwt/paraguay.png",
   "title": "🇵🇾PARAGUAY🇵🇾",
   "items": [
-     {
-        "name": "MBOKAYATY TV",
-        "url": "https://live.enhdtv.com:8081/8174/index.m3u8",
-        "icono": "https://imgs.search.brave.com/0elrILScO2i23kU0vVp0bieL9ZyOPXdeL9cOjtW0oq8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzEwL1BhcmFndWF5/X1RWX2xvZ28ucG5n"
-      },
+     
        {
         "name": "VISIÓN TV VILLARRICA",
         "url": "https://rds3gen.desdeparaguay.net/satelitaltv/satelitaltv/chunklist.m3u8?admin=nacion",
