@@ -1,0 +1,1397 @@
+[
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
+    "title": "🇵🇾TIGO SPORTS🇵🇾",
+    "items": [
+      {
+        "name": "24/7 Prueba ",
+        "url": "https://digital-tv.net/canales/PHPS/angel/carlosrf.m3u8",
+        "icono": "https://i.ibb.co/ynYh1YQ9/tigo-En-Vivo.png",
+        "type": "hls"
+      },
+      {
+        "name": "24/7 Prueba Plus",
+        "url": "https://digital-tv.net/canales/PHPS/angel/vitaci9067.m3u8",
+        "icono": "https://i.ibb.co/Y7tjqJ1M/tigo-En-Vivo-Plus.png",
+        "type": "hls"
+      },
+      {
+        "name": "EVENTO 1 HD",
+        "url": "https://d3kzwqwnq1f7tq.cloudfront.net/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://dl.dropboxusercontent.com/scl/fi/bify73qa6pam1h5op5mg4/tigo3.json?rlkey=r2r6qmvzobpn1tib3n068ap1z&st=2jfgsr87&dl=0",
+        "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
+      },
+      {
+        "name": "EVENTOS PLUS HD",
+        "url": "https://d2jluxxgx550su.cloudfront.net/out/v1/62de20495af84f908fa8963f50c44d46/index.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://dl.dropbox.com/scl/fi/wbw3yya7vk1f3ivn650ug/tigo4.txt?rlkey=ozbktawdgz3ir2ydtm4qez3om&st=8nrn8w9m&dl=0",
+        "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
+      },
+      {
+        "name": "EVENTOS 3 HD",
+        "url": "https://sam-py-edge01.tigo.com.py/ccur-session/e319b1151f2d4f6682d5ccbb56be311417486357322181b65a320aeed11ebae01d90082191a3cTfPoq7bcpzIioW1uMA4mxQSR/out/v1/c2cc7832b5b64aedacb0e459fd9d8398/index.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=3104af5254534d43a98319238dcb6f00&key=8f4af52cf6c144a6499244e542d92680",
+        "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
+      },
+      {
+        "name": "TIGO WEB 1",
+        "type": "webview",
+        "url": "https://killermina.github.io/mi-player-html/",
+        "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
+      },
+      {
+        "name": "TIGO WEB 2",
+        "type": "webview",
+        "url": "https://killermina.github.io/player2/",
+        "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/k6cgFLwt/paraguay.png",
+    "title": "🇵🇾PARAGUAY🇵🇾",
+    "items": [
+      {
+        "name": "VISIÓN TV VILLARRICA",
+        "url": "https://rds3gen.desdeparaguay.net/satelitaltv/satelitaltv/chunklist.m3u8?admin=nacion",
+        "icono": "https://i.postimg.cc/fyVSj4Sp/canal-vision-tv.png"
+      },
+      {
+        "name": "CAAZAPA TV",
+        "url": "https://live.enhdtv.com:8081/8108/index.m3u8",
+        "icono": "https://upload.wikimedia.org/wikipedia/commons/4/41/Ycu%C3%A1_Bola%C3%B1os_%28Caazap%C3%A1%29.jpg"
+      },
+      {
+        "name": "GEN TV",
+        "url": "https://rds3gen.desdeparaguay.net/gentv/gentv_py_alta/chunklist.m3u8?admin=nacion",
+        "icono": "https://i0.wp.com/television.com.py/wp-content/uploads/2020/10/LogoGENtvpy.jpg?fit=620%2C350&ssl=1"
+      },
+      {
+        "name": "TELEFUTURO",
+        "url": "https://copacogen.desdeparaguay.net/telefuturo/telefuturo_py_alta/index.m3u8?admin=tvaccion",
+        "icono": "https://i.ibb.co/Hp9jRYsP/telefuturo-new-logo-2022-by-randomuser2040-dfhp9ty-fullview.png"
+      },
+      {
+        "name": "C9N",
+        "url": "https://d2qsan2ut81n2k.cloudfront.net/live/48f53430-9014-4459-a048-6169dac14140/ts:abr.m3u8",
+        "icono": "https://i.ibb.co/Z6y9wbMT/330x330-logo-grande-C9-N.png"
+      },
+      {
+        "name": "SNT",
+        "url": "https://alba-py-snt-snt.stream.mediatiquestream.com/index.m3u8",
+        "icono": "https://i.postimg.cc/L5h8p4C4/snt.png"
+      },
+      {
+        "name": "PARAVISIÓN",
+        "url": "https://cdn.cvattv.com.ar/live/c4eds/PARAVISION_C4/SA_Live_dash_enc/PARAVISION_C4.mpd?*",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=bd8e8c9b32ef027e8ff4ff0cfce855a4&key=2918e9893b570c3fa1f215b52a12cc91",
+        "icono": "https://i.postimg.cc/rmDCV75c/paravision.png"
+      },
+      {
+        "name": "LA TELE HD",
+        "url": "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion",
+        "icono": "https://i.postimg.cc/qR3vwG84/latele-py.png"
+      },
+      {
+        "name": "TRECE",
+        "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(IV4UMFYdJ6Acsndc08mwz0xCYS086Gl00dWN1Gxhxq9jeEbe2RZ_RMFoUDmZZRT56t78FEo8l8fycrJfgYyoQz6UWsbUZWBkp62GQbOYaZWL0WfBw7YDgCyOAZAkS0ju)/cloud/3/x9ksaba/s/live-720.m3u8",
+        "icono": "https://i.postimg.cc/TPKH8zGj/trecepy.png"
+      },
+      {
+        "name": "ABC",
+        "url": "https://livecdn.use1-0004.jwplive.com/live/sites/rmOO40BU/media/GQagSggs/live.isml/.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://m3ukodi.com/php/clearkey_hextobase64/results.php?keyid%5B%5D=c0bef75733b2645452432bd4e76f36f5&key%5B%5D=ea16243367d814c1d53f1eaf21f005ff",
+        "icono": "https://i.postimg.cc/fyjHLrkr/abctv.png"
+      },
+      {
+        "name": "MEGA TV PY",
+        "url": "https://ott.streann.com/loadbalancer/services/public/channels-secure/5e62b96e2cdcfac2dd8885dd/playlist.m3u8",
+        "icono": "https://i.ibb.co/hfFmYXz/WW.jpg"
+      },
+      {
+        "name": "PARAGUAY TV",
+        "url": "https://stream.paraguaytv.gov.py/memfs/400fcc83-8f04-4497-8011-150847d44702.m3u8",
+        "icono": "https://i.ibb.co/pB0cvBG1/py-Tv-web-2.png"
+      },
+      {
+        "name": "ÑANDUTI TV",
+        "url": "https://rds3gen.desdeparaguay.net/nandutitv/nandutitv_baja/playlist.m3u8",
+        "icono": "https://i.ibb.co/r2DnTpxP/vnIkhRO.png"
+      },
+      {
+        "name": "TV CAMARA",
+        "url": "https://cdn.cvattv.com.ar/live/c4eds/TV_Camara/SA_Live_dash_enc/TV_Camara.mpd?*",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=9357704ade444dc3b23be89865af2f58&key=3d03e0a79d8f7b7aa2897c3d24bd4b6a",
+        "icono": "http://imgfz.com/i/QTcoH5d.jpeg"
+      },
+      {
+        "name": "SUR TV",
+        "url": "https://cdn.cvattv.com.ar/live/c4eds/SUR_TV_C4/SA_Live_dash_enc/SUR_TV_C4.mpd?*",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=988ae4e8408981609ded9f8b23bbf79d&key=b867c66791bcad67ee142be1e21c2577",
+        "icono": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sur_TV_Itap%C3%BAa_logo_2022.png"
+      },
+      {
+        "name": "UNIVERSO TV",
+        "url": "https://rds3gen.desdeparaguay.net/universotv/universotv_int_alta/index.m3u8?admin=nacion",
+        "icono": "https://i.postimg.cc/7Pd01mmh/universo-970.png"
+      },
+      {
+        "name": "E40",
+        "url": "https://rds3gen.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion",
+        "icono": "https://i.ibb.co/jz9XkvP/e40.png"
+      },
+      {
+        "name": "POPU TV",
+        "url": "https://rds3gen.desdeparaguay.net/universotv/universotv_py_alta/chunklist.m3u8?admin=nacion",
+        "icono": "https://i.postimg.cc/xT2vp2TK/popu-tv-2.png"
+      },
+      {
+        "name": "5 DIAS PY",
+        "url": "https://cdn.cvattv.com.ar/live/c4eds/5_Dias_PY/SA_Live_dash_enc/5_Dias_PY.mpd?*",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=746091c502edcf1e9d003535ce01f3e4&key=29081b5f92d1a37c88fbbd0ece55c839",
+        "icono": "https://i.ibb.co/cXhyvZGC/R-1.png"
+      },
+      {
+        "name": "NPY",
+        "url": "https://copacogen.desdeparaguay.net/npy/npy_py_alta/playlist.m3u8?admin=tvaccion",
+        "icono": "https://i.postimg.cc/pVF8Tf5f/npy.png"
+      },
+      {
+        "name": "UNICANAL",
+        "url": "https://cdn.cvattv.com.ar/live/c4eds/UNICANAL_C4/SA_Live_dash_enc/UNICANAL_C4.mpd?*",
+        "icono": "https://i.postimg.cc/DzRp7xy9/unicanal.png",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=63a3729cfd60f24f7e1266bee5eca02c&key=cb9ed028af40654e1aa43934ee58db58"
+      },
+      {
+        "name": "UNION TV",
+        "url": "https://copacogen.desdeparaguay.net/800tv/800tv/playlist.m3u8",
+        "icono": "https://i.ibb.co/HLvq6nfQ/logo-retina-01.png"
+      },
+      {
+        "name": "HEI",
+        "url": "https://rds3gen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion",
+        "icono": "https://i.postimg.cc/fLShcZf6/hei.png"
+      },
+      {
+        "name": "MOTOR SUR MEDIA",
+        "url": "https://video.hostingcaaguazu.com:19360/motorsurtv/motorsurtv.m3u8",
+        "icono": "https://i.postimg.cc/q761GQm6/motor-sur-media.png"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/9mkcw2dN/espn-seeklogo.png",
+    "title": "⚽ ESPN ⚽",
+    "items": [
+      {
+        "name": "ESPN",
+        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/89.m3u8",
+        "icono": "https://assetshuluimcom-a.akamaihd.net/h3o/landing/networks/wall/espn-network-logo.png"
+      },
+      {
+        "name": "ESPN 2",
+        "url": "http://104.238.205.28:8989/278762_.m3u8",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_dark_360w_270h.png"
+      },
+      {
+        "name": "ESPN 3",
+        "url": "http://104.238.205.28:8989/278763_.m3u8",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73833_dark_360w_270h.png"
+      },
+      {
+        "name": "ESPN 4",
+        "url": "http://104.238.205.28:8989/278764_.m3u8",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65930_dark_360w_270h.png"
+      },
+      {
+        "name": "ESPN 5",
+        "url": "http://104.238.205.28:8989/278558_.m3u8",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s86787_dark_360w_270h.png"
+      },
+      {
+        "name": "ESPN 6",
+        "url": "http://104.238.205.28:8989/278566_.m3u8",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s99633_dark_360w_270h.png"
+      },
+      {
+        "name": "ESPN 7",
+        "url": "http://104.238.205.28:8989/278567_.m3u8",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91513_dark_360w_270h.png"
+      },
+      {
+        "name": "ESPN PREMIUM",
+        "url": "http://magmaplayer.com/stream/secure/Zmp1KmDjBS8kZmthAGxhZwV0YwHlKmR3AwZkZwL1AQEsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "type": "hls",
+        "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTc5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/zbWxZ95/fs1.png",
+    "title": "⚽ FOX SPORTS ⚽",
+    "items": [
+      {
+        "name": "FOX SPORTS",
+        "url": "http://104.238.205.28:8989/278766_.m3u8",
+        "icono": "https://i.ibb.co/zbWxZ95/fs1.png"
+      },
+      {
+        "name": "FOX SPORTS 2",
+        "url": "http://104.238.205.28:8989/278767_.m3u8",
+        "icono": "https://i.ibb.co/YjrQ0CQ/fs2.png"
+      },
+      {
+        "name": "FOX SPORTS 3",
+        "url": "http://104.238.205.28:8989/278768_.m3u8",
+        "icono": "https://i.ibb.co/SBkkDxq/fs3.png"
+      },
+      {
+        "name": "FOX SPORTS 1 MX",
+        "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=2fbdaa3bea0d0323ae011b318d1db716&key=8726ef7eaf5b9dce15fb6aa9f80bd53f",
+        "icono": "https://i.ibb.co/n8fh45XB/fox-sports-mexico-official-logo-1-by-carwashdumpsterboy-diul2ao-fullview.png"
+      },
+      {
+        "name": "FOX SPORTS 2 MX ",
+        "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tepjqej1ys/out/v1/c9c9159baee749a19612b1598495859a/cenc.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=8836fb04d62dc64c9f8a39ef8640d5eb&key=d4f05ce56c5231b7cdf53455bea58621",
+        "icono": "https://i.ibb.co/RNpLj4w/Dise-o-sin-t-tulo-8.png"
+      },
+      {
+        "name": "FOX SPORTS 3 MX",
+        "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wybgz0orr8/out/v1/2f6d1612abd44f5883917f8a585b955f/cenc.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=11c8c1c2ef0385cf1e64d44bb9c3a395&key=5769730ffbdc4b2fd8945929d9ace063",
+        "icono": "https://i.ibb.co/f0KqfQY/Dise-o-sin-t-tulo-9.png"
+      },
+      {
+        "name": "FOX DEPORTES",
+        "url": "https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Fox-Sports-Espanol2.m3u8",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=9f327d24c66fbd84e15ab5c9ead7c7a4&key=83837185529c0c4048f81386c2d36426",
+        "icono": "https://i.ibb.co/YBBb0NdH/s15377-ll-h15-ab.png"
+      },
+      {
+        "name": "FOX SPORTS PREMIUM",
+        "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=9f327d24c66fbd84e15ab5c9ead7c7a4&key=83837185529c0c4048f81386c2d36426",
+        "icono": "https://i.ibb.co/9V35PtY/Dise-o-sin-t-tulo-10.png"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/60QvHcnr/R-2.png",
+    "title": "⚽TyC SPORTS⚽",
+    "items": [
+      {
+        "name": "TYC SPORTS",
+        "url": "http://104.238.205.28:8989/278778_.m3u8",
+        "type": "hls",
+        "drm_license_uri": "https://dl.dropbox.com/scl/fi/3cmvxd9jsvvde816z4obc/tycsports.json?rlkey=t0hknbazqzkp3n9tfi13wkrux&st=9ey5xmzc&dl=0",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90677_dark_360w_270h.png"
+      },
+      {
+        "name": "TNT SPORT HD",
+        "url": "http://104.238.205.28:8989/278776_.m3u8",
+        "type": "hls",
+        "drm_license_uri": "https://dl.dropbox.com/scl/fi/3tf1070cyrjky1hx9fv3i/tntsports.json?rlkey=5shl5jkgjimeb7l6mgsdtzwwc&st=13svhsoi&dl=0",
+        "icono": "https://i.ibb.co/vCVx3Qyc/tnt-sports-chile-logo-png-seeklogo-400914.png"
+      },
+      {
+        "name": "TYC SPORTS INTERNACIONAL",
+        "url": "https://cdn.cvattv.com.ar/live/c3eds/TyC_Internacional/SA_Live_dash_enc/TyC_Internacional.mpd?*",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://m3ukodi.com/php/clearkey_hextobase64/results.php?keyid%5B%5D=58e1ebe75d944f6a98ea67b1c7c0a572&key%5B%5D=1c311b069dbce31ce8e62a6e7e2433eb",
+        "icono": "https://i.ibb.co/tK20mxz/tycsports.png"
+      },
+      {
+        "name": "TYC SPORT (PLAY 1)",
+        "url": "https://d320m3arb2wo8b.cloudfront.net/out/v1/34e0da501a8c4489b713809eb08a9bf3/index.m3u8",
+        "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
+      },
+      {
+        "name": "TYC SPORT (PLAY 2)",
+        "url": "http://104.238.205.28:8989/278758_.m3u8",
+        "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
+      },
+      {
+        "name": "TYC SPORT (PLAY 3)",
+        "url": "https://d1xm2jznwi5xzj.cloudfront.net/out/v1/1bcd1ee954894463b1793597891a25b6/index_10.m3u8",
+        "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
+      },
+      {
+        "name": "TYC SPORT (PLAY 4)",
+        "url": "https://dj8bzwveg7go9.cloudfront.net/out/v1/366fc52554ae42c58465ea4b278eac0c/index_15.m3u8",
+        "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
+      },
+      {
+        "name": "TYC SPORT (PLAY 5)",
+        "url": "https://d107yb993altze.cloudfront.net/out/v1/772e0b0193134726ad84693b7baca6c6/index_9.m3u8",
+        "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
+      },
+      {
+        "name": "TYC SPORT (PLAY 6)",
+        "url": "https://d21no6qan3ol31.cloudfront.net/out/v1/a2f25f61e9d44701aa4e813ac5efc4a4/index.m3u8",
+        "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png",
+    "title": "⚽DSPORT⚽",
+    "items": [
+      {
+        "name": "DIRECTV SPORTS ",
+        "url": "http://magmaplayer.com/stream/m3u8/BGpjKmZlAS8kZmthAGxhZwV2YwR2Zy8kAmHlZwt/hls/324.m3u8",
+        "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTMwX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          }
+        ]
+      },
+      {
+        "name": "DIRECTV SPORTS 2",
+        "url": "http://magmaplayer.com/stream/m3u8/ZmZjKmZkBI8kZmthAGxhZwV2YwR0AS8kAmHmZwV/hls/319.m3u8",
+        "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTMwX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          }
+        ]
+      },
+      {
+        "name": "DIRECTV SPORTS PLUS",
+        "url": "http://38.211.242.128:8001/play/a05h/index.m3u8",
+        "icono": "https://i.ibb.co/rG8VJmk2/Y2gw-MTAw-MDAw-MDAw-MTM5-X2xpbm-Vhcl9ja-GFubm-Vs-X3-Nzb-GE-11002-LOGO-360x270.png"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/SDX3WH6k/Win-Sports2018.png",
+    "title": "⚽WIN SPORTS⚽",
+    "items": [
+      {
+        "name": "WIN SPORTS",
+        "url": "http://magmaplayer.com/stream/m3u8/ZGRjKmRjAQEsZwtjAwbkZQIyBwVmBwV3MQp6AGRkZQbkZzWyBzZjMGL6BTH1My8kAmDmZwx/hls/1044.m3m8",
+        "icono": "https://i.ibb.co/SDX3WH6k/Win-Sports2018.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Hash",
+            "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          }
+        ]
+      },
+      {
+        "name": "WIN SPORTS +",
+        "url": "http://magmaplayer.com/stream/m3u8/ZwV1KmRjAQWsZwtjAwbkZQIyBwVmBwV3MQp6AGRkZQbkZzWyBzZjMGL6BTH1My8kAmDmZwx/hls/1042.m3u8",
+        "icono": "https://i.ibb.co/8g3XZ6v/logo-win.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Hash",
+            "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          }
+        ]
+      },
+      {
+        "name": "BEIN SPORTS",
+        "url": "http://magmaplayer.com/stream/m3u8/BQxlKmxkKmRmZv4kBGRhZl40Ay8kAmDmZQp/hls/91.m3u8",
+        "icono": "https://i.ibb.co/yFhY5bWm/Be-IN-Sports-En-Espa-ol.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Hash",
+            "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          }
+        ]
+      },
+      {
+        "name": "BEIN SPORTS EXTRA Ñ",
+        "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+        "icono": "https://i.postimg.cc/MHsyq36G/descarga-6.jpg"
+      },
+      {
+        "name": "TUDN",
+        "url": "http://magmaplayer.com/stream/m3u8/ZGxlKmx1Zy8kAQthZwVlYwRmAP4kZmIsZGp0ZmZj/hls/952.m3u8",
+        "icono": "https://i.ibb.co/5XFLRVY0/TUDN-LOGO-COLOR.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Hash",
+            "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          }
+        ]
+      },
+      {
+        "name": "SKY SPORTS LA LIGA",
+        "url": "http://magmaplayer.com/stream/m3u8/ZwH0KmRjAmysZGxjYwR4Av44AP4kAmEsZGp0ZmR5/hls/1079.m3u8",
+        "icono": "https://i.ibb.co/QjdqmjHs/Sky-Sports-La-Liga-II.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Hash",
+            "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          }
+        ]
+      },
+      {
+        "name": "CLARO SPORTS",
+        "url": "http://magmaplayer.com/stream/m3u8/Zwp1KmVjZI8kAQthZwD2YwR4ZP40A18kAmDmZGp/hls/201.m3u8",
+        "icono": "https://i.ibb.co/r2tFkZ8z/claro-png-file-claro-sports-logo-svg-1280.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Hash",
+            "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          }
+        ]
+      },
+      {
+        "name": "CDO PREMIUM",
+        "url": "http://magmaplayer.com/stream/m3u8/BQVjKmR0BI8kAQthZwVlYwRmAP4kZmIsZGp0ZmZj/hls/149.m3u8",
+        "icono": "https://i.ibb.co/nMRb9NYk/6065f67d6a70f2448ee66115-cdo.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Hash",
+            "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/NKs6v0v/sportv.png",
+    "title": "⚽SPORTV⚽",
+    "items": [
+      {
+        "name": "SporTV",
+        "url": "https://ottb.live.cf.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?key=c4906b9a9f8dda3c0725bddb8c497733&keyid=4bbcff3289d457b4dd5dbdd21221de9a",
+        "icono": "https://i.ibb.co/NKs6v0v/sportv.png"
+      },
+      {
+        "name": "Cazé TV",
+        "url": "https://ottb.live.cf.ww.aiv-cdn.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?key=501b209cccd323ac00bf5ac15b406cb4&keyid=34475edab991ad5e92548aebd710410a",
+        "icono": "https://i.ibb.co/W3XpzQy/cazetv.png"
+      },
+      {
+        "name": "PREMIERE CLUBES MPD",
+        "url": "https://abgqhhbaaaaaaaamgyske232j4one.otte.live.cf.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=56b79c1782b30e6b6fc973b0e8fd4104&key=fa38aaa865a57eda7c77444697ba8ed3",
+        "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s98136_dark_360w_270h.png"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/k31DCf4/Do0-qz-Jj-Xw-GBUbh-K7n-CQi-Vro2-YT51-DHh-Bw7-On-Tv-Jr35-PEACSqaqhxf-Hdmed-SZr-Ei-LTiuq-ERb-s900-c-k.webp",
+    "title": "COMBAT UFC WWE",
+    "items": [
+      {
+        "name": "UFC",
+        "type": "hls",
+        "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951134/hls/playlist.m3u8?ads.xumo_channelId=99951134",
+        "icono": "https://i.ibb.co/k31DCf4/Do0-qz-Jj-Xw-GBUbh-K7n-CQi-Vro2-YT51-DHh-Bw7-On-Tv-Jr35-PEACSqaqhxf-Hdmed-SZr-Ei-LTiuq-ERb-s900-c-k.webp"
+      },
+      {
+        "name": "UFC 2",
+        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/67a52cd4ec91870008a62164/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&",
+        "icono": "https://images.pluto.tv/channels/67a52cd4ec91870008a62164/solidLogoPNG.png?worldtv2"
+      },
+      {
+        "name": "BOXING TV",
+        "url": "https://d2irko5f9gt1c5.cloudfront.net/10008/99951154/hls/BOXINGTV_SCTE.m3u8?ads.xumo_channelId=99951154",
+        "type": "hls",
+        "icono": "https://image.xumo.com/v1/channels/channel/99951154/500x400.webp?type=color_onBlack"
+      },
+      {
+        "name": "FIGHT NETWORK",
+        "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951132/hls/master.m3u8?ads.xumo_channelId=99951132",
+        "type": "hls",
+        "icono": "https://image.xumo.com/v1/channels/channel/99951132/500x400.webp?type=color_onBlack"
+      },
+      {
+        "name": "FITE 24/7",
+        "url": "https://d3d85c7qkywguj.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FiteTV-DistroTV/263.m3u8",
+        "type": "hls",
+        "icono": "https://i.ibb.co/pjHcQHK/FITE247.png"
+      },
+      {
+        "name": "DAZN COMBAT",
+        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/64df7a9a44fe100009b6ac5a/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&",
+        "icono": "https://images.pluto.tv/channels/64df7a9a44fe100009b6ac5a/solidLogoPNG.png?worldtv2"
+      },
+      {
+        "name": "UFA",
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8",
+        "type": "hls",
+        "icono": "https://i.ibb.co/CmdBHzB/ufa.png"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/Nd2FsWsZ/dazn1.png",
+    "title": "🎬UNIVERSAL+ | HBO",
+    "items": [
+      {
+        "name": "Universal Cinema",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/1282/CH_LOGO/160/160/0/0/21817888076947.png",
+        "url": "http://magmaplayer.com/stream/secure/BGH2Kmx4BS8kAGDhAGRhAv4lAQqsZGp2AQHlBQDkBI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "Universal Comedy",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/1283/CH_LOGO/160/160/0/0/94843453076948.png",
+        "url": "http://magmaplayer.com/stream/secure/AmV3Kmx5Zy8kAGDhAGRhAv4lAQqsZGp2AQHlBQp3AS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "Universal Crime",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/1284/CH_LOGO/160/160/0/0/34307524076949.png",
+        "url": "http://magmaplayer.com/stream/secure/BQHlKmx5Ay8kAGDhAGRhAv4lAQqsZGp2AQHlBQt4BS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "Universal Premiere",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/1285/CH_LOGO/160/160/0/0/62685863076950.png",
+        "url": "http://magmaplayer.com/stream/secure/ZGV4KmRjZQAsZGH0YwHkYwLhZwD3KmR3AwD1ZwxjAmusLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "Universal Reality",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/1281/CH_LOGO/160/160/0/0/24764893076951.png",
+        "url": "http://magmaplayer.com/stream/secure/ZwR0KmRjZQMsZGH0YwHkYwLhZwD3KmR3AwD1ZwxkAmAsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/100/CH_LOGO/160/160/0/0/228799490721.png",
+        "url": "http://magmaplayer.com/stream/secure/AQV0KmHlA18kAGDhAGRhAv4lAQqsZGp2AQHlBGV4Ay9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO 2",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/101/CH_LOGO/160/160/0/0/93371734072127.png",
+        "url": "http://magmaplayer.com/stream/secure/AQH5KmHkBS8kAGDhAGRhAv4lAQqsZGp2AQHlBGZ0ZS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO Family",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/160/160/0/0/7354519807335.png",
+        "url": "http://magmaplayer.com/stream/secure/Zwt5KmHlAy8kAGDhAGRhAv4lAQqsZGp2AQHlBGZ4Zy9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO Mundi",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/107/CH_LOGO/160/160/0/0/61157416071448.png",
+        "url": "http://magmaplayer.com/stream/secure/Awp4KmRkZQSsZGH0YwHkYwLhZwD3KmR3AwD1Zwx0AwqsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO Plus",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/160/160/0/0/10237380072165.png",
+        "url": "http://magmaplayer.com/stream/secure/ZmVjKmHmAS8kAGDhAGRhAv4lAQqsZGp2AQHlBGHkBS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO Pop",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/109/CH_LOGO/160/160/0/0/68908128073927.png",
+        "url": "http://magmaplayer.com/stream/secure/AmV3KmHmBS8kAGDhAGRhAv4lAQqsZGp2AQHlBGH4AS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO Signature",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/160/160/0/0/3657655307500.png",
+        "url": "http://magmaplayer.com/stream/secure/ZmL0KmHmAy8kAGDhAGRhAv4lAQqsZGp2AQHlBGplAS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HBO Xtreme",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/108/CH_LOGO/160/160/0/0/6041444607334.png",
+        "url": "http://magmaplayer.com/stream/secure/ZwR1KmH0AI8kAGDhAGRhAv4lAQqsZGp2AQHlBGp3ZI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/Nd2FsWsZ/dazn1.png",
+    "title": "🎬 Infantiles",
+    "items": [
+      {
+        "name": "Cartunito",
+        "url": "http://104.238.205.28:8989/278528_.m3u8",
+        "icono": "https://i.ibb.co/6JWVKxGp/cartunito.png"
+      },
+      {
+        "name": "Cartoon Network",
+        "url": "http://104.238.205.28:8989/278525_.m3u8",
+        "icono": "https://i.ibb.co/zV8kbKs0/cartoon-network.png"
+      },
+      {
+        "name": "Discovery Kids",
+        "url": "http://104.238.205.28:8989/278536_.m3u8",
+        "icono": "https://i.ibb.co/JWzb6QxN/discovery-Kids.png"
+      },
+      {
+        "name": "Disney Channel",
+        "url": "http://104.238.205.28:8989/278539_.m3u8",
+        "icono": "https://i.ibb.co/7t6kZvBy/disney-Channel.png"
+      },
+      {
+        "name": "Disney Jr.",
+        "url": "http://104.238.205.28:8989/278542_.m3u8",
+        "icono": "https://i.ibb.co/TdmBjrd/disney-j-R.png"
+      },
+      {
+        "name": "Nickelodeon",
+        "url": "http://104.238.205.28:8989/278544_.m3u8",
+        "icono": "https://i.ibb.co/whVg0SDj/nickelodeon.png"
+      },
+      {
+        "name": "Nick JR",
+        "url": "http://104.238.205.28:8989/278546_.m3u8",
+        "icono": "https://i.ibb.co/PZBnFR0R/nick-jr.png"
+      },
+      {
+        "name": "Tooncast",
+        "url": "http://104.238.205.28:8989/278551_.m3u8",
+        "icono": "https://i.ibb.co/4RdNLQL7/tooncast.png"
+      },
+      {
+        "name": "Ciudad Magazine",
+        "url": "http://104.238.205.28:8989/278754_.m3u8",
+        "icono": "https://i.ibb.co/Z6vxdJj4/ciudad-magazine.png"
+      },
+      {
+        "name": "PAKA PAKA",
+        "url": "http://104.238.205.28:8989/278772_.m3u8",
+        "icono": "https://i.ibb.co/7JRqnmJF/PakaPaka.png"
+      },
+      {
+        "name": "Adult Swim",
+        "url": "http://104.238.205.28:8989/278392_.m3u8",
+        "icono": "https://i.ibb.co/ycK85jqp/adult-Swin.png"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "image": "https://i.ibb.co/Nd2FsWsZ/dazn1.png",
+    "title": "🎬 Cultura y Cocina",
+    "items": [
+      {
+        "name": "ANIMAL PLANET",
+        "url": "http://104.238.205.28:8989/278617_.m3u8",
+        "icono": "https://i.ibb.co/4nr56B4Y/2018-Animal-Planet-logo-svg.png"
+      },
+      {
+        "name": "HISTORY",
+        "icono": "https://i.ibb.co/cSf474qK/History-Logo-svg.png",
+        "url": "http://magmaplayer.com/stream/secure/AGLkKmH2ZS8kAGDhAGRhAv4lAQqsZGp2AQHlBGt4BI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "HISTORY 2",
+        "icono": "https://i.ibb.co/jkfB4HH/H2-logo.webp",
+        "url": "http://magmaplayer.com/stream/secure/ZGZlKmHjBI8kAGDhAGRhAv4lAQqsZGp2AQHlBGx1BS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "DISCOVERY CHANNEL",
+        "url": "http://104.238.205.28:8989/278617_.m3u8",
+        "icono": "https://i.ibb.co/bNnyx0B/3328310f-6d31-30a1-be18-d17a7ecb95cd.png"
+      },
+      {
+        "name": "DISCOVERY H&H",
+        "icono": "https://i.ibb.co/gjWGgjX/hh.png",
+        "url": "http://magmaplayer.com/stream/secure/AGVjKmV1BS8kAGDhAGRhAv4lAQqsZGp2AQHmZQNlBI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "DISCOVERY SCIENCE",
+        "icono": "https://i.ibb.co/Xy2WV2N/discovery-science-logo.png",
+        "url": "http://magmaplayer.com/stream/secure/AGHkKmV2A18kAGDhAGRhAv4lAQqsZGp2AQHmZQN5BI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "DISCOVERY TURBO",
+        "icono": "https://i.ibb.co/M8C0j8Q/India-Tvd3227d-discovery-turbo.jpg",
+        "url": "http://magmaplayer.com/stream/secure/BQtmKmV3AI8kAGDhAGRhAv4lAQqsZGp2AQHmZQR1AS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "DISCOVERY THEATER",
+        "icono": "https://i.ibb.co/TD6cKXF0/2015-Discovery-theater-HD-logo-svg.png",
+        "url": "http://magmaplayer.com/stream/secure/ZmD2KmV3ZI8kAGDhAGRhAv4lAQqsZGp2AQHmZQVjBI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "Investigation Discovery",
+        "icono": "https://geo.edge.pontiscloud.com:9002/images/66/CH_LOGO/160/160/0/0/6146615007111.png?worldtv2",
+        "url": "http://magmaplayer.com/stream/secure/ZmD2KmV3ZI8kAGDhAGRhAv4lAQqsZGp2AQHmZQVjBI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "DISCOVERY WORLD",
+        "icono": "https://a-qiio.onrender.com/webp/logos/disworld.webp",
+        "url": "http://magmaplayer.com/stream/secure/BQp0KmV3Ay8kAGDhAGRhAv4lAQqsZGp2AQHmZQD1AS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "El Gourmet",
+        "icono": "https://elgourmet.com/wp-content/themes/elgourmet/assets/img/icons/logo.png",
+        "url": "http://magmaplayer.com/stream/secure/ZGZjKmZ0BI8kAGDhAGRhAv4lAQqsZGp2AQHmZQHkAI9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "National Geographic",
+        "icono": "https://www.giscorps.org/wp-content/uploads/2021/02/national-geographic-logo-1024x768.png?6bfec1&6bfec1",
+        "url": "http://magmaplayer.com/stream/secure/BGH3KmpjAy8kAGDhAGRhAv4lAQqsZGp2AQHmZQp0ZS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
+      {
+        "name": "Food Network",
+        "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/2048px-Food_Network_logo.svg.png",
+        "url": "http://magmaplayer.com/stream/secure/ZmNmKmDlAS8kAGDhAGRhAv4lAQqsZGp2AQHmZGN0AS9uLwLmZ2L1AmIxMTMzA2WvKmN.m3u8",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "tittle": "Pack RakutenTV",
+    "items": [
+      {
+        "name": "Pelis Top",
+        "url": "https://top-movies-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=5983&ads.rtv_channel_name=top-movies-rakuten-tv_es&ads.rtv_content_id=5983&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=6acf0411-5466-4508-9679-cf0842ade1ff&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=5983&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/645e383c-88f5-4378-88fd-0d4989c01cde.jpeg"
+      },
+      {
+        "name": "Accion",
+        "url": "https://action-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6069&ads.rtv_channel_name=action-rakuten-tv_es&ads.rtv_content_id=6069&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=22ffa70f-ed60-4e7d-9409-7850d5b64917&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6069&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/cc0a135a-3a25-4b7a-84b3-d29d5ee6e4d8.jpeg"
+      },
+      {
+        "name": "Comedio",
+        "url": "https://comedy-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6180&ads.rtv_channel_name=comedy-rakuten-tv_es&ads.rtv_content_id=6180&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=6316b942-a72b-4ee1-9b4f-12fce008e965&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6180&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/68048254-04b5-4438-bb14-118427a0ba3a.jpeg"
+      },
+      {
+        "name": "Drama",
+        "url": "https://drama-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6092&ads.rtv_channel_name=drama-rakuten-tv_es&ads.rtv_content_id=6092&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=db71c1e2-3618-4f16-915b-4bf9a1e710f0&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6092&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/400caa96-4298-41ae-92a4-8a2406fc81c8.jpeg"
+      },
+      {
+        "name": "Peliculas Romanticas",
+        "url": "https://romance-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6105/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6105&ads.rtv_channel_name=romance-rakuten-tv_es&ads.rtv_content_id=6105&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=255a1094-f082-480c-a6d1-da3b7acf018d&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6105&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/ec9d1d83-74cc-443d-b2ec-b51b970fe831.jpeg"
+      },
+      {
+        "name": "Cine Español",
+        "url": "https://spanish-cinema-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6196/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6196&ads.rtv_channel_name=spanish-cinema-rakuten-tv_es&ads.rtv_content_id=6196&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=ee4e7276-211c-487f-84e3-da9da74c6c70&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6196&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/294f65bc-fa27-494d-9cb5-423260b7e875.jpeg"
+      },
+      {
+        "name": "Sci-Fi",
+        "url": "https://sci-fi-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6740/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6740&ads.rtv_channel_name=sci-fi-rakuten-tv_es&ads.rtv_content_id=6740&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=69917a4e-25ed-4b33-80a7-4afe77842e80&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6740&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/a0e491eb-8f73-4bd9-a034-0fe9fd6984d7.jpeg"
+      },
+      {
+        "name": "Thrillers",
+        "url": "https://thriller-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6480/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6480&ads.rtv_channel_name=thriller-rakuten-tv_es&ads.rtv_content_id=6480&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=ee180ced-2677-4b03-b0b7-71b15fbb47e2&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6480&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/8f5f37e8-70f0-4d3d-b8cd-ce5f34d6e916.jpeg"
+      },
+      {
+        "name": "100% Navidad",
+        "url": "https://family-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6205&ads.rtv_channel_name=family-rakuten-tv_es&ads.rtv_content_id=6205&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=ff2d4752-d22d-4ac2-bd84-4e604ac782a1&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6205&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/fe76f469-0869-4bd8-a5de-a471d9740965.png"
+      },
+      {
+        "name": "Mytime Movie Network",
+        "url": "https://amg00500-amg00500c3-rakuten-uk-3910.playouts.now.amagi.tv/playlist/amg00500-studiocitypicturesfast-mytimemovienetworkspain-rakutenuk/playlist.m3u8?ads_amagi_channel_id=715&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_content_id=2589&ads_rtv_content_language=es&ads_rtvid=271859&ads_streaming_id=ab513380-3231-453b-9c6c-d57d7ce32b4f&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
+        "icono": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/e9ebb3e1-2419-4299-91f5-20256e320589.jpeg"
+      },
+      {
+        "name": "Cine Friki",
+        "url": "https://zylo-cinefriki-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-zylo-cinefriki-rakuten/CDN/master.m3u8?ads_amagi_channel_id=851&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=movies%2Cmystery&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=12&ads_rtv_content_id=5016&ads_rtv_content_language=es&ads_rtvid=271859&ads_streaming_id=56537eae-a400-4133-a775-4ecbee36b88a&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor\n\n",
+        "icono": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/2c7d3efb-0e8c-49b8-a130-05f95b4c53ba.jpeg"
+      },
+      {
+        "name": "Cine Western",
+        "url": "https://amg00711-zylo-amg00711c9-rakuten-es-5783.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewesternes-rakutenes/playlist.m3u8?ads_amagi_channel_id=979&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=movies%2Cwestern&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=7&ads_rtv_content_id=6591&ads_rtv_content_language=es&ads_rtvid=271859&ads_streaming_id=158d56d1-1191-471d-9cd1-6c9025b04ea7&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor\n\n",
+        "icono": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/9d7e65e4-f350-4db2-80ec-461d1ed8371a.jpeg"
+      },
+      {
+        "name": "Crimen",
+        "url": "https://crime-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6220/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6220&ads.rtv_channel_name=crime-rakuten-tv_es&ads.rtv_content_id=6220&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=55da5dc8-3ac6-4d85-96cc-9633fcab1a6d&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6220&publishing_platform_id=5&tenant_identifier=rtv",
+        "icono": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/726cbff5-c46e-48ec-b025-8ac30e53f370.jpeg"
+      },
+      {
+        "name": "Todo Novelas",
+        "url": "https://amg00711-zylo-amg00711c3-rakuten-es-5794.playouts.now.amagi.tv/playlist/amg00711-zylofast-frecuencianovelas-rakutenes/playlist.m3u8?ads_amagi_channel_id=978&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=series%2Cdrama%2Cromance&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=7&ads_rtv_content_id=6598&ads_rtv_content_language=es&ads_rtvid=271859&ads_streaming_id=89622c2c-daaa-4c5a-b486-94e513529c07&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor\n\n",
+        "icono": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/87e940da-d9b1-4e7b-bf1b-499f3b0afe16.jpeg"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "tittle": "Pack Pluto",
+    "items": [
+      {
+        "name": "Tv Cine Estelar",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5dcde437229eff00091b6c30/colorLogoPNG_1759246115371.png"
+      },
+      {
+        "name": "Tv Cine Acción",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5dcb62e63d4d8f0009f36881/colorLogoPNG_1760378798093.png"
+      },
+      {
+        "name": "Estrellas de Acción",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5e972a21ad709d00074195ba/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5e972a21ad709d00074195ba/colorLogoPNG.png"
+      },
+      {
+        "name": "Adrenalina Pura",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/61b793ccf571b80007b7a610/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/61b793ccf571b80007b7a610/colorLogoPNG.png"
+      },
+      {
+        "name": "Tv Cine Comedia",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5dcdde78f080d900098550e4/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/missing.png"
+      },
+      {
+        "name": "Tv Cine Drama",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5dcddfcb229eff00091b6bdf/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5dcddfcb229eff00091b6bdf/colorLogoPNG_1751914046614.png"
+      },
+      {
+        "name": "Tv Cine Drama",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5dd7ea2aeab5230009986735/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5dd7ea2aeab5230009986735/colorLogoPNG.png"
+      },
+      {
+        "name": "Tv Cine Suspenso",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5ddc4e8bcbb9010009b4e84f/colorLogoPNG.png"
+      },
+      {
+        "name": "Tv Cine Crimen",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/624af40c004f8000079b784d/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/624af40c004f8000079b784d/colorLogoPNG.png"
+      },
+      {
+        "name": "Tv Sci-Fi",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5f2817d3d7573a00080f9175/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5f2817d3d7573a00080f9175/colorLogoPNG.png"
+      },
+      {
+        "name": "Runtime",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/62c5d80dc6de440007e033eb/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/62c5d80dc6de440007e033eb/colorLogoPNG.png"
+      },
+      {
+        "name": "Nuestro Cine",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5defde6d6c07b50009cf0757/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5defde6d6c07b50009cf0757/colorLogoPNG.png"
+      },
+      {
+        "name": "Tv Cine Inspirador",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/6806d519fea7414f33f57016/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/6806d519fea7414f33f57016/colorLogoPNG_1746817663597.png"
+      },
+      {
+        "name": "Tv Cine Clasica",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/609059dc63be6e0007b4eca6/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/609059dc63be6e0007b4eca6/colorLogoPNG.png"
+      },
+      {
+        "name": "Tv Cine Familia",
+        "url": "https://stitcher.pluto.tv/stitch/hls/channel/5dd6ddb30a1d8a000908ed4c/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9",
+        "icono": "https://images.pluto.tv/channels/5dd6ddb30a1d8a000908ed4c/colorLogoPNG_1732662706857.png"
+      }
+    ]
+  }
+]
