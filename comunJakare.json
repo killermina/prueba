@@ -1239,7 +1239,7 @@
   },
   {
     "type": "category",
-    "tittle": "Pack RakutenTV",
+    "title": "Pack RakutenTV",
     "items": [
       {
         "name": "Pelis Top",
@@ -1315,7 +1315,7 @@
   },
   {
     "type": "category",
-    "tittle": "Pack Pluto",
+    "title": "Pack Pluto",
     "items": [
       {
         "name": "Tv Cine Estelar",
