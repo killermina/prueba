@@ -50,7 +50,13 @@
         "type": "webview",
         "url": "https://killermina.github.io/player2/",
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
-    }                    
+    },
+{
+        "name": "TIGO WEB 3",
+        "type": "webview",
+        "url": "https://streamtpcloud.com/global1.php?stream=tigosportsparaguay",
+        "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
+    }                                
 ]
 
     },
