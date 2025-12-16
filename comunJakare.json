@@ -4,19 +4,21 @@
     "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
     "title": "🇵🇾TIGO SPORTS🇵🇾",
     "items": [
-      {
+{
         "name": "24/7 Prueba ",
         "url": "https://digital-tv.net/canales/PHPS/angel/carlosrf.m3u8",
         "icono": "https://i.ibb.co/ynYh1YQ9/tigo-En-Vivo.png",
-        "type": "hls"
-      },
+         "type": "hls"
+       
+    },
       {
         "name": "24/7 Prueba Plus",
         "url": "https://digital-tv.net/canales/PHPS/angel/vitaci9067.m3u8",
         "icono": "https://i.ibb.co/Y7tjqJ1M/tigo-En-Vivo-Plus.png",
-        "type": "hls"
-      },
-      {
+         "type": "hls"
+       
+    },
+ {
         "name": "EVENTO 1 HD",
         "url": "https://d3kzwqwnq1f7tq.cloudfront.net/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd",
         "type": "CLEARKEY",
@@ -30,27 +32,34 @@
         "drm_license_uri": "https://dl.dropbox.com/scl/fi/wbw3yya7vk1f3ivn650ug/tigo4.txt?rlkey=ozbktawdgz3ir2ydtm4qez3om&st=8nrn8w9m&dl=0",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
-      {
+ {
         "name": "EVENTOS 3 HD",
         "url": "https://sam-py-edge01.tigo.com.py/ccur-session/e319b1151f2d4f6682d5ccbb56be311417486357322181b65a320aeed11ebae01d90082191a3cTfPoq7bcpzIioW1uMA4mxQSR/out/v1/c2cc7832b5b64aedacb0e459fd9d8398/index.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=3104af5254534d43a98319238dcb6f00&key=8f4af52cf6c144a6499244e542d92680",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
-      },
-      {
+    },
+{
         "name": "TIGO WEB 1",
         "type": "webview",
         "url": "https://killermina.github.io/mi-player-html/",
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
-      },
-      {
+    },
+{
         "name": "TIGO WEB 2",
         "type": "webview",
         "url": "https://killermina.github.io/player2/",
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
-      }
-    ]
-  },
+    },
+{
+        "name": "TIGO WEB 3",
+        "type": "webview",
+        "url": "https://streamtpcloud.com/global2.php?stream=tigosportsparaguay",
+        "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
+    }                                
+]
+
+    },
   {
     "type": "category",
     "image": "https://i.ibb.co/k6cgFLwt/paraguay.png",
@@ -205,6 +214,7 @@
         "url": "http://magmaplayer.com/stream/secure/BQZjKmZ3AI8kZmthAGxhZwV2Ywp3KmR3AwH3ZwRlAQqsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_dark_360w_270h.png",
         "type": "hls",
+        "user": "Magma Player/10",
         "headers": [
           {
             "name": "X-App",
@@ -225,6 +235,7 @@
         "url": "http://magmaplayer.com/stream/secure/Awx1KmZ4Ay8kZmthAGxhZwV2Ywp3KmR3AwH3ZwRlBGEsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73833_dark_360w_270h.png",
         "type": "hls",
+        "user": "Magma Player/10",
         "headers": [
           {
             "name": "X-App",
@@ -346,25 +357,73 @@
       }
     ]
   },
-  {
+    {
     "type": "category",
     "image": "https://i.ibb.co/zbWxZ95/fs1.png",
     "title": "⚽ FOX SPORTS ⚽",
     "items": [
       {
         "name": "FOX SPORTS",
-        "url": "http://104.238.205.28:8989/278766_.m3u8",
-        "icono": "https://i.ibb.co/zbWxZ95/fs1.png"
+        "url": "http://magmaplayer.com/stream/secure/ZwR4KmD2AI8kZmthAGxhZwV0YwH3KmR3AwH4AQVkAwEsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "icono": "https://i.ibb.co/zbWxZ95/fs1.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
       },
       {
         "name": "FOX SPORTS 2",
-        "url": "http://104.238.205.28:8989/278767_.m3u8",
-        "icono": "https://i.ibb.co/YjrQ0CQ/fs2.png"
+        "url": "http://magmaplayer.com/stream/secure/AQLkKmDmBI8kZmthAGxhZwV0YwH3KmR3AwH4AQVlZQysLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "icono": "https://i.ibb.co/YjrQ0CQ/fs2.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
       },
       {
         "name": "FOX SPORTS 3",
-        "url": "http://104.238.205.28:8989/278768_.m3u8",
-        "icono": "https://i.ibb.co/SBkkDxq/fs3.png"
+        "url": "http://magmaplayer.com/stream/secure/BQR5KmD2BS8kZmthAGxhZwV0YwH3KmR3AwH4AQVlZmIsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "icono": "https://i.ibb.co/SBkkDxq/fs3.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
       },
       {
         "name": "FOX SPORTS 1 MX",
