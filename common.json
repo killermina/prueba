@@ -54,7 +54,7 @@
 {
         "name": "TIGO WEB 3",
         "type": "webview",
-        "url": "https://streamtpcloud.com/global1.php?stream=tigosportsparaguay",
+        "url": "https://streamtpcloud.com/global2.php?stream=tigosportsparaguay",
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
     }                                
 ]
@@ -216,28 +216,14 @@
       {
         "name": "ESPN",
         "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/89.m3u8",
-        "icono": "https://assetshuluimcom-a.akamaihd.net/h3o/landing/networks/wall/espn-network-logo.png",
-        "type": "hls",
-        "headers": [
-          {
-            "name": "X-App",
-            "value": "ps"
-          },
-          {
-            "name": "X-Version",
-            "value": "10/1.0.9"
-          },
-          {
-            "name": "X-Did",
-            "value": "ab633f575ddff7bb"
-          }
-        ]
+        "icono": "https://assetshuluimcom-a.akamaihd.net/h3o/landing/networks/wall/espn-network-logo.png"
       },
       {
         "name": "ESPN 2",
         "url": "http://magmaplayer.com/stream/secure/BQZjKmZ3AI8kZmthAGxhZwV2Ywp3KmR3AwH3ZwRlAQqsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_dark_360w_270h.png",
         "type": "hls",
+        "user": "Magma Player/10",
         "headers": [
           {
             "name": "X-App",
@@ -258,6 +244,7 @@
         "url": "http://magmaplayer.com/stream/secure/Awx1KmZ4Ay8kZmthAGxhZwV2Ywp3KmR3AwH3ZwRlBGEsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73833_dark_360w_270h.png",
         "type": "hls",
+        "user": "Magma Player/10",
         "headers": [
           {
             "name": "X-App",
@@ -380,62 +367,109 @@
     ]
   },
     {
-        "type": "category",
+    "type": "category",
     "image": "https://i.ibb.co/zbWxZ95/fs1.png",
     "title": "⚽ FOX SPORTS ⚽",
     "items": [
-            {
+      {
         "name": "FOX SPORTS",
-        "url": "http://104.238.205.28:8989/278766_.m3u8",
-        "icono": "https://i.ibb.co/zbWxZ95/fs1.png"
+        "url": "http://magmaplayer.com/stream/secure/ZwR4KmD2AI8kZmthAGxhZwV0YwH3KmR3AwH4AQVkAwEsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "icono": "https://i.ibb.co/zbWxZ95/fs1.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
       },
-    {
+      {
         "name": "FOX SPORTS 2",
-        "url": "http://104.238.205.28:8989/278767_.m3u8",
-        "icono": "https://i.ibb.co/YjrQ0CQ/fs2.png"
+        "url": "http://magmaplayer.com/stream/secure/AQLkKmDmBI8kZmthAGxhZwV0YwH3KmR3AwH4AQVlZQysLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "icono": "https://i.ibb.co/YjrQ0CQ/fs2.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
       },
-    {
+      {
         "name": "FOX SPORTS 3",
-        "url": "http://104.238.205.28:8989/278768_.m3u8",
-        "icono": "https://i.ibb.co/SBkkDxq/fs3.png"
+        "url": "http://magmaplayer.com/stream/secure/BQR5KmD2BS8kZmthAGxhZwV0YwH3KmR3AwH4AQVlZmIsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "icono": "https://i.ibb.co/SBkkDxq/fs3.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "ps"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
       },
-    {
+      {
         "name": "FOX SPORTS 1 MX",
         "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=2fbdaa3bea0d0323ae011b318d1db716&key=8726ef7eaf5b9dce15fb6aa9f80bd53f",
         "icono": "https://i.ibb.co/n8fh45XB/fox-sports-mexico-official-logo-1-by-carwashdumpsterboy-diul2ao-fullview.png"
-    },
-    {
+      },
+      {
         "name": "FOX SPORTS 2 MX ",
         "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tepjqej1ys/out/v1/c9c9159baee749a19612b1598495859a/cenc.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=8836fb04d62dc64c9f8a39ef8640d5eb&key=d4f05ce56c5231b7cdf53455bea58621",
         "icono": "https://i.ibb.co/RNpLj4w/Dise-o-sin-t-tulo-8.png"
-    },
-    {
+      },
+      {
         "name": "FOX SPORTS 3 MX",
         "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wybgz0orr8/out/v1/2f6d1612abd44f5883917f8a585b955f/cenc.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=11c8c1c2ef0385cf1e64d44bb9c3a395&key=5769730ffbdc4b2fd8945929d9ace063",
         "icono": "https://i.ibb.co/f0KqfQY/Dise-o-sin-t-tulo-9.png"
-    },
-    {
+      },
+      {
         "name": "FOX DEPORTES",
         "url": "https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Fox-Sports-Espanol2.m3u8",
         "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=9f327d24c66fbd84e15ab5c9ead7c7a4&key=83837185529c0c4048f81386c2d36426",
         "icono": "https://i.ibb.co/YBBb0NdH/s15377-ll-h15-ab.png"
-    },
-    {
+      },
+      {
         "name": "FOX SPORTS PREMIUM",
         "url": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=9f327d24c66fbd84e15ab5c9ead7c7a4&key=83837185529c0c4048f81386c2d36426",
         "icono": "https://i.ibb.co/9V35PtY/Dise-o-sin-t-tulo-10.png"
-    }
-            
-        ]
-},
+      }
+    ]
+  },
     {
         "type": "category",
      "image": "https://i.ibb.co/60QvHcnr/R-2.png",
