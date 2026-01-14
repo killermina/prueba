@@ -1116,53 +1116,72 @@
         "items":[
  {
 "name":"Cartunito",
-"url":"http://104.238.205.28:8989/278528_.m3u8",
+"url":"ttp://rogsworld.uk:80/GusDemoWhtt122/H6WGEDktft/1286960.m3u8",
 "icono":"https://i.ibb.co/6JWVKxGp/cartunito.png"
 },
 {
 "name":"Cartoon Network",
-"url":"http://104.238.205.28:8989/278525_.m3u8",
-"icono":"https://i.ibb.co/zV8kbKs0/cartoon-network.png"
+"url":"https://nog-live1-ott.izzigo.tv/4/out/u/dash/CARTOONNETWORKHD/default.mpd",
+"icono":"https://i.ibb.co/zV8kbKs0/cartoon-network.png",
+  "type": "CLEARKEY",
+  "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=85d06ba283f3b18bb14f9f8d59b8fb82&key=6659fed472544289adee986c1d33fa79"
 },
 {
 "name":"Discovery Kids",
-"url":"http://104.238.205.28:8989/278536_.m3u8",
-"icono":"https://i.ibb.co/JWzb6QxN/discovery-Kids.png"
+"url":"https://edge-live03-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NTEwMjMxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiMjA1NmJkZjI4NDgzM2YzZiIsInNlc3Npb25faWQiOiI4NTcwNzE5NS0xNzY4MzM3NDMxLTc4MCIsImNsaWVudF9pZCI6Ijk5OTkwMDAwMTM1MzcyMi0tMTE1MTEzMjciLCJkZXZpY2VfaWQiOiI4NTcwNzE5NSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNCIsImF1ZCI6IjI5NiIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.uFl6_0bEJ703aBvfa4od3ymA-3RqDalLPBCx8II5176gejEWBRTFcjkZa7CG6K9QotSuLY4waJ8mM15QcB9gMA==/live/c6eds/Discovery_Kids/SA_Live_dash_enc_C/Discovery_Kids.mpd",
+"icono":"https://i.ibb.co/JWzb6QxN/discovery-Kids.png",
+"type":"CLEARKEY",
+  "drm_license_uri":"https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ffb2f0f63c23a3592d4653e938b9ca19&key=d3661ae881fc55fc7a15815cd439747b"
 },
 {
 "name":"Disney Channel",
-"url":"http://104.238.205.28:8989/278539_.m3u8",
-"icono":"https://i.ibb.co/7t6kZvBy/disney-Channel.png"
+"url":"https://edge-live03-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NTEwMjMxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiMjA1NmJkZjI4NDgzM2YzZiIsInNlc3Npb25faWQiOiI4NTcwNzE5NS0xNzY4MzM3NDMxLTc4MCIsImNsaWVudF9pZCI6Ijk5OTkwMDAwMTM1MzcyMi0tMTE1MTEzMjciLCJkZXZpY2VfaWQiOiI4NTcwNzE5NSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNCIsImF1ZCI6IjI5NiIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.uFl6_0bEJ703aBvfa4od3ymA-3RqDalLPBCx8II5176gejEWBRTFcjkZa7CG6K9QotSuLY4waJ8mM15QcB9gMA==/live/c3eds/DisneyChannelHD/SA_Live_dash_enc_C/DisneyChannelHD.mpd",
+"icono":"https://i.ibb.co/7t6kZvBy/disney-Channel.png",
+  "type": "CLEARKEY",
+  "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4a742e478d14023e1993e011d9415f94&key=0df77ede9bc744376836d21afa137dda"
 },
 {
 "name":"Disney Jr.",
-"url":"http://104.238.205.28:8989/278542_.m3u8",
-"icono":"https://i.ibb.co/TdmBjrd/disney-j-R.png"
+"url":"https://nog-live1-ott.izzigo.tv/5/out/u/dash/DISNEYJRHD/default.mpd",
+"icono":"https://i.ibb.co/TdmBjrd/disney-j-R.png",
+  "type": "CLEARKEY",
+  "drm_license_uri":"https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=d41d2ae9b0d875ba12e97c5a3f3eec82&key=3a443892e1ad1158c6fd2bf9c9146eb6"
 },
 {
 "name":"Nickelodeon",
-"url":"http://104.238.205.28:8989/278544_.m3u8",
-"icono":"https://i.ibb.co/whVg0SDj/nickelodeon.png"
+"url":"https://edge-live03-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NTEwMjMxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiMjA1NmJkZjI4NDgzM2YzZiIsInNlc3Npb25faWQiOiI4NTcwNzE5NS0xNzY4MzM3NDMxLTc4MCIsImNsaWVudF9pZCI6Ijk5OTkwMDAwMTM1MzcyMi0tMTE1MTEzMjciLCJkZXZpY2VfaWQiOiI4NTcwNzE5NSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNCIsImF1ZCI6IjI5NiIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.uFl6_0bEJ703aBvfa4od3ymA-3RqDalLPBCx8II5176gejEWBRTFcjkZa7CG6K9QotSuLY4waJ8mM15QcB9gMA==/live/c3eds/Nickelodeon/SA_Live_dash_enc_C/Nickelodeon.mpd",
+"icono":"https://i.ibb.co/whVg0SDj/nickelodeon.png",
+  "type": "CLEARKEY",
+  "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=61c18cefecc2d067beaa9ff181305345&key=38d6f650cbf9a38fd9f35c01f98e647a"
 },
 {
 "name":"Nick JR",
-"url":"http://104.238.205.28:8989/278546_.m3u8",
-"icono":"https://i.ibb.co/PZBnFR0R/nick-jr.png"
+"url":"https://edge-live03-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NTEwMjMxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiMjA1NmJkZjI4NDgzM2YzZiIsInNlc3Npb25faWQiOiI4NTcwNzE5NS0xNzY4MzM3NDMxLTc4MCIsImNsaWVudF9pZCI6Ijk5OTkwMDAwMTM1MzcyMi0tMTE1MTEzMjciLCJkZXZpY2VfaWQiOiI4NTcwNzE5NSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNCIsImF1ZCI6IjI5NiIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.uFl6_0bEJ703aBvfa4od3ymA-3RqDalLPBCx8II5176gejEWBRTFcjkZa7CG6K9QotSuLY4waJ8mM15QcB9gMA==/live/c6eds/Nick_Jr/SA_Live_dash_enc_C/Nick_Jr.mpd",
+"icono":"https://i.ibb.co/PZBnFR0R/nick-jr.png",
+  "type": "CLEARKEY",
+  "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=e824b2277a86fd6adfc40aa948e5064a&key=28da2dbbe8e1a1463bbb23895b922083"
 },
 {
 "name":"Tooncast",
-"url":"http://104.238.205.28:8989/278551_.m3u8",
-"icono":"https://i.ibb.co/4RdNLQL7/tooncast.png"
+"url":"https://edge-live03-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NTEwMjMxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiMjA1NmJkZjI4NDgzM2YzZiIsInNlc3Npb25faWQiOiI4NTcwNzE5NS0xNzY4MzM3NDMxLTc4MCIsImNsaWVudF9pZCI6Ijk5OTkwMDAwMTM1MzcyMi0tMTE1MTEzMjciLCJkZXZpY2VfaWQiOiI4NTcwNzE5NSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNCIsImF1ZCI6IjI5NiIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.uFl6_0bEJ703aBvfa4od3ymA-3RqDalLPBCx8II5176gejEWBRTFcjkZa7CG6K9QotSuLY4waJ8mM15QcB9gMA==/live/c6eds/Tooncast/SA_Live_dash_enc_C/Tooncast.mpd",
+"icono":"https://i.ibb.co/4RdNLQL7/tooncast.png",
+  "type": "CLEARKEY",
+  "drm_license_uri": "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=10638a722eb54c64bfb0e7a77483686a&key=41a7d3d522e19215b7e8f611b6902d61"
 },
 {
 "name":"Ciudad Magazine",
-"url":"http://104.238.205.28:8989/278754_.m3u8",
-"icono":"https://i.ibb.co/Z6vxdJj4/ciudad-magazine.png"
+"url":"https://edge-live03-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NTEwMjMxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiMjA1NmJkZjI4NDgzM2YzZiIsInNlc3Npb25faWQiOiI4NTcwNzE5NS0xNzY4MzM3NDMxLTc4MCIsImNsaWVudF9pZCI6Ijk5OTkwMDAwMTM1MzcyMi0tMTE1MTEzMjciLCJkZXZpY2VfaWQiOiI4NTcwNzE5NSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNCIsImF1ZCI6IjI5NiIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.uFl6_0bEJ703aBvfa4od3ymA-3RqDalLPBCx8II5176gejEWBRTFcjkZa7CG6K9QotSuLY4waJ8mM15QcB9gMA==/live/c3eds/Magazine/SA_Live_dash_enc/Magazine.mpd",
+"icono":"https://i.ibb.co/Z6vxdJj4/ciudad-magazine.png",
+  "type":"CLEARKEY",
+  "drm_license_uri":"https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4f1235069d34c22cb73d9b78bae15587&key=55e068ff6b152e34c66dc639b38e8692"
 },
 {
 "name":"PAKA PAKA",
-"url":"http://104.238.205.28:8989/278772_.m3u8",
-"icono":"https://i.ibb.co/7JRqnmJF/PakaPaka.png"
+"url":"hhttps://edge-live03-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NTEwMjMxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiMjA1NmJkZjI4NDgzM2YzZiIsInNlc3Npb25faWQiOiI4NTcwNzE5NS0xNzY4MzM3NDMxLTc4MCIsImNsaWVudF9pZCI6Ijk5OTkwMDAwMTM1MzcyMi0tMTE1MTEzMjciLCJkZXZpY2VfaWQiOiI4NTcwNzE5NSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNCIsImF1ZCI6IjI5NiIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.uFl6_0bEJ703aBvfa4od3ymA-3RqDalLPBCx8II5176gejEWBRTFcjkZa7CG6K9QotSuLY4waJ8mM15QcB9gMA==/live/c6eds/PAKA_PAKA/SA_Live_dash_enc_C/PAKA_PAKA.mpd",
+"icono":"https://i.ibb.co/7JRqnmJF/PakaPaka.png",
+  "type":"CLEARKEY",
+  "drm_license_uri":"https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=334001b2f2644df9bdf35e92d2b89f8f&key=475ec87d86ed0636dbb6d6d9d4a43bb7"
+
 },
 {
 "name":"Adult Swim",
