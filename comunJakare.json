@@ -591,7 +591,7 @@
     "items": [
       {
         "name": "DIRECTV SPORTS ",
-        "url": "http://magmaplayer.com/stream/m3u8/BGpjKmZlAS8kZmthAGxhZwV2YwR2Zy8kAmHlZwt/hls/324.m3u8",
+        "url": "http://magmaplayer.com/stream/secure/ZGt0KmZlAS8mAl4lZmNhAGthZGR0KmR3Awx2ZwZkAGWsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
         "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTMwX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
         "type": "hls",
         "user": "Magma Player/10",
@@ -607,12 +607,16 @@
           {
             "name": "X-Version",
             "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
           }
         ]
       },
       {
         "name": "DIRECTV SPORTS 2",
-        "url": "http://magmaplayer.com/stream/m3u8/ZmZjKmZkBI8kZmthAGxhZwV2YwR0AS8kAmHmZwV/hls/319.m3u8",
+        "url": "http://magmaplayer.com/stream/secure/ZwR3KmRkAQEsZmphZwZjYwH4YwRkAS8kAmL5AwVmZwV2K2SvAwZmMwH3AJExMzL3LzWsZN.m3u8",
         "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTMwX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
         "type": "hls",
         "user": "Magma Player/10",
@@ -628,13 +632,37 @@
           {
             "name": "X-Version",
             "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
           }
         ]
       },
       {
         "name": "DIRECTV SPORTS PLUS",
-        "url": "http://38.211.242.128:8001/play/a05h/index.m3u8",
-        "icono": "https://i.ibb.co/rG8VJmk2/Y2gw-MTAw-MDAw-MDAw-MTM5-X2xpbm-Vhcl9ja-GFubm-Vs-X3-Nzb-GE-11002-LOGO-360x270.png"
+        "url": "http://magmaplayer.com/stream/secure/BGZ5KmZkAS8mAl4lZmNhAGthZGR0KmR3Awx2ZwZmAQMsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "icono": "https://i.ibb.co/rG8VJmk2/Y2gw-MTAw-MDAw-MDAw-MTM5-X2xpbm-Vhcl9ja-GFubm-Vs-X3-Nzb-GE-11002-LOGO-360x270.png",
+        "type": "hls",
+        "user": "Magma Player/10",
+        "headers": [
+          {
+            "name": "X-App",
+            "value": "di"
+          },
+          {
+            "name": "X-Hash",
+            "value": "bUWouF9zufxct3TJup7TsoyFf2zgQPqJd4LrPeyBFYXilmggTal3UZh1jLN_azi0CZ4xnxxXEz3oBUWMrFVn0hOiNK2BFYyOY6DhECJ_svjRqijqN0ln9S13O5oMn7259nDnBfR_gZV59Keox1EOWWXjlqQkxpDz4Utx1Y23JZkNmI_XDUVqmy3ln1hqP_FiYH_KkWqpXxaWFoBQP-IMUsGfA0oUeRnuCkaXN938mZWuwtOYKJ3UyEUdVhcWNRn21XGMZgenR-2mBrBe_uxwUmY5m8oLURUTHV6C9NepWW4m5S4YQj1WxbEo5z88ZIgbnH7eEmaxPZEgt_m8FA8lPaBcyd3yv5_mSQatdJS-1BgzQlz3gikc3WZKulllol53Xzdlu_gm1oDtcvMO_1xzLkBO8VTW6PXfk122ug5TfaZf0ExhqNNZE4epYomJOItALMFEkRfpivDHGX3N5xfa0QVVmDlXzbUgPVAFdwC-OAUbkOa4WelUTrsvVvLFdW0T50-wdoKWGMCCnur7fZp5Rw"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
       }
     ]
   },
@@ -645,7 +673,7 @@
     "items": [
       {
         "name": "WIN SPORTS",
-        "url": "http://magmaplayer.com/stream/m3u8/ZGRjKmRjAQEsZwtjAwbkZQIyBwVmBwV3MQp6AGRkZQbkZzWyBzZjMGL6BTH1My8kAmDmZwx/hls/1044.m3m8",
+        "url": "http://magmaplayer.com/stream/secure/AGDjKmRjAQEsZmphZwZjYwH4YwRkAS8kAmL5AwVmAQD5K2SvAwZmMwH3AJExMzL3LzWsZN.m3u8",
         "icono": "https://i.ibb.co/SDX3WH6k/Win-Sports2018.png",
         "type": "hls",
         "user": "Magma Player/10",
@@ -661,12 +689,16 @@
           {
             "name": "X-Hash",
             "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
           }
         ]
       },
       {
         "name": "WIN SPORTS +",
-        "url": "http://magmaplayer.com/stream/m3u8/ZwV1KmRjAQWsZwtjAwbkZQIyBwVmBwV3MQp6AGRkZQbkZzWyBzZjMGL6BTH1My8kAmDmZwx/hls/1042.m3u8",
+        "url": "http://magmaplayer.com/stream/secure/ZGRkKmRjAQWsZmphZwZjYwH4YwRkAS8kAmL5AwVmAmHjK2SvAwZmMwH3AJExMzL3LzWsZN.m3u8",
         "icono": "https://i.ibb.co/8g3XZ6v/logo-win.png",
         "type": "hls",
         "user": "Magma Player/10",
@@ -682,6 +714,10 @@
           {
             "name": "X-Hash",
             "value": "PXe1IAA4yk1v_jczmlFbLgenNm8Li1vyhFwmGVUCBOlg6NCdQsnE_OhoUzp1dH3yzKYpd2UtuTyHO1ELj88PIV6Yn3j7G07CnXgxyhIlUpsXnfR_Jx4vxWryBaR-HrpZk2MX4tB32uFPwHgyZZCfVjhEh_Pvk_ZrJAviIB6k7RkqK-xO_52YR_szLY8k87RcsBipSbblxAgApKrIAH6cgBqBDr4odjsqt_OuvqWRUt2t-lY1ROc9EvH3CdAcjjvgY9s2ZVSs_y8G0vuLcxHGfo_uqmStuX5l3PTZgLKNe3sC4a2RNJSkZdkxeCMd2rpbV4ypii8s4TRh-qxeH4K6HhZE_6LNZDqgS4NhHvLsPdfZm3qJYzwJjoDeAbNraVPK-VdUyo8Mjl-aoIQ-rObMBx6mRkePV3sg1idLwMLZXC9RSxtAnXmsdwSHy-WAbQgHUYbv8Pz34DK8fc17OMMHxFME8LrFHkKmWHomt4Qbzu_tymd1F2LGKPh__zgyPk1jeb900Wou-ildARGgkYK9hXAASYUBPryl6ASlktej-nTeBQiH6cE4ZyYT9FEZUcTdmLZYoET2yyTfRtojc5LjFw"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
           }
         ]
       },
