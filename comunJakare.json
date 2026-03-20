@@ -163,9 +163,10 @@
     ]
   },
 {
-  "type": "category",
-  "title": "Canales Argentina",
-  "items": [
+  "type":"category",
+"image":"https://i.ibb.co/zbWxZ95/fs1.png",
+"title":"Argentina",
+"items":[
     {
       "name": "America TV",
       "icono": "https://i.ibb.co/m5L7rSqf/Am-rica-TV-Nuevo-logo-Junio-2020.png",
