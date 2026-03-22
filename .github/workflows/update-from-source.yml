@@ -3,22 +3,22 @@ name: Actualizar desde prueba6.json
 on:
   schedule:
     - cron: '0 10 * * *'          # Todos los días a las 10:00 UTC (~07:00 Paraguay)
-  workflow_dispatch:              # Permite ejecutar manualmente desde la interfaz
+  workflow_dispatch:              # Permite ejecutar manualmente
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write               # Necesario para que pueda hacer commit
+      contents: write
 
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v5
 
-      - name: Configurar Python (si no está instalado por defecto)
-        uses: actions/setup-python@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v6   # ← Actualizado a v6 (Node 24 compatible)
         with:
-          python-version: '3.12'      # Versión reciente y estable
+          python-version: '3.12'        # Cambia si usas otra versión de Python
 
       - name: Instalar dependencias necesarias (requests)
         run: pip install requests
