@@ -1,0 +1,25 @@
+name: Actualizar desde prueba6.json
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # cada 6 horas (ajusta a diario si prefieres: '0 10 * * *')
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Actualizar urls, drm y headers
+        run: python update_from_prueba6.py
+
+      - name: Commit si hubo cambios
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Actualización automática: urls, drm_license_uri y headers desde prueba6.json"
+          file_pattern: comunJakare.json
+          branch: main
