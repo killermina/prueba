@@ -231,9 +231,7 @@
       {
         "name": "ESPN 3",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73833_dark_360w_270h.png",
-        "url": "http://177.10.184.193:8000/play/a0dc/index.m3u8",
-        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=f4c9f97e2a36feab0e5077f2b44cbc4e&key=1743cd03dfe3736b2c95da91a783af38",
-        "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/90.m3u8"
       },
       {
         "name": "ESPN 4",
@@ -252,16 +250,12 @@
       {
         "name": "ESPN 6",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s99633_dark_360w_270h.png",
-        "url": "http://177.10.184.193:8000/play/a0dd/index.m3u8",
-        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=5fc7b662e69c0fbf8d39691166b1c919&key=89157cdd25df25d56f1ecccee3850888",
-        "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/25.m3u8"
       },
       {
         "name": "ESPN 7",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91513_dark_360w_270h.png",
-        "url": "http://edge-live31-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzcxNzIyNDY3Iiwic2lwIjoiMTgxLjEyNC4xMzAuMTMyIiwicGF0aCI6Ii9saXZlL2M0ZWRzL1RWX0NhbWFyYS9TQV9MaXZlX2Rhc2hfZW5jLyIsInNlc3Npb25fY2RuX2lkIjoiZDMzYWU5YjVkYTFlMTdhYiIsInNlc3Npb25faWQiOiIxZDdhNjY5YmE3ZTdlYzQ0OGZiYjlmZDU0OWQwMTgxZi0xNzcxNTQ5NjY2LTgwMSIsImNsaWVudF9pZCI6ImZsb3c6OTk5OTAwMDAyNjgzNTEzLS1mbG93Ojk5OTkwMDAwMjY4MzUxMzpQIiwiZGV2aWNlX2lkIjoiMWQ3YTY2OWJhN2U3ZWM0NDhmYmI5ZmQ1NDlkMDE4MWYiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHA6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6Ijc4Iiwic291cmNlcyI6Wzg1LDE0Niw4OF19.9uZRmwdBCIr4EpY20TwMvcRl6PdM4_qLbrK0QgtOHjsIScriUneXKJyQ7eovUqZg50CDm-c5dBACLTwCruyapA==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
-        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=5fc7b662e69c0fbf8d39691166b1c919&key=89157cdd25df25d56f1ecccee3850888",
-        "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/26.m3u8"
       },
       {
         "name": "ESPN PREMIUM",
