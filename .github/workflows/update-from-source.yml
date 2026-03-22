@@ -1,36 +1,71 @@
-name: Actualizar desde prueba6.json
+import json
+import requests
+import re
+import unicodedata
 
-on:
-  schedule:
-    - cron: '0 10 * * *'          # Todos los días a las 10:00 UTC (~07:00 Paraguay)
-  workflow_dispatch:              # Permite ejecutar manualmente
+TARGET_FILE = "comunJakare.json"  # tu archivo
+SOURCE_URL  = "https://raw.githubusercontent.com/elvioladordemark/cijefcji/refs/heads/main/prueba6.json"
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+def normalize_name(name):
+    if not name:
+        return ""
+    name = unicodedata.normalize('NFD', name.lower().strip())
+    name = ''.join(c for c in name if unicodedata.category(c) != 'Mn')
+    name = re.sub(r'\s+', ' ', name)
+    # Reglas extras para mejorar coincidencias
+    name = name.replace("tv publica", "television publica")
+    name = name.replace("america tv", "america television")
+    name = name.replace("el trece", "trece")
+    return name
 
-    steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v5
+# Descargar fuente
+response = requests.get(SOURCE_URL)
+response.raise_for_status()
+source_data = response.json()
 
-      - name: Configurar Python
-        uses: actions/setup-python@v6   # ← Actualizado a v6 (Node 24 compatible)
-        with:
-          python-version: '3.12'        # Cambia si usas otra versión de Python
+# Cargar tu JSON
+with open(TARGET_FILE, 'r', encoding='utf-8') as f:
+    target = json.load(f)
 
-      - name: Instalar dependencias necesarias (requests)
-        run: pip install requests
+source_map = {}
+for cat in source_data:
+    cat_name = cat.get("name", "")
+    samples = cat.get("samples", [])
+    for item in samples:
+        norm_name = normalize_name(item.get("name", ""))
+        if norm_name:
+            source_map[norm_name] = {
+                "url": item.get("url", ""),
+                "drm_license_uri": item.get("drm_license_uri", "")
+            }
 
-      - name: Actualizar urls, drm y headers
-        run: python update_from_prueba6.py
+updated_count = 0
 
-      - name: Commit automático si hubo cambios
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "Actualización automática: urls, drm_license_uri y headers desde prueba6.json"
-          file_pattern: comunJakare.json
-          branch: main
-          skip_dirty_check: false
-          skip_fetch: false
+for cat in target:
+    if cat.get("type") == "category" and "items" in cat:
+        for item in cat["items"]:
+            norm_name = normalize_name(item.get("name", ""))
+            if norm_name in source_map:
+                new_data = source_map[norm_name]
+                changed = False
+
+                # Solo actualizamos url si es diferente y existe en el fuente
+                if new_data["url"] and new_data["url"] != item.get("url", ""):
+                    item["url"] = new_data["url"]
+                    changed = True
+
+                # Solo actualizamos drm_license_uri si es diferente y existe en el fuente
+                if new_data["drm_license_uri"] and new_data["drm_license_uri"] != item.get("drm_license_uri", ""):
+                    item["drm_license_uri"] = new_data["drm_license_uri"]
+                    changed = True
+
+                if changed:
+                    updated_count += 1
+                    print(f"Actualizado: {item.get('name', 'sin nombre')} en {cat.get('title', 'sin título')}")
+
+if updated_count > 0:
+    with open(TARGET_FILE, 'w', encoding='utf-8') as f:
+        json.dump(target, f, ensure_ascii=False, indent=2)
+    print(f"✅ {updated_count} items actualizados (solo url y drm_license_uri)")
+else:
+    print("No se encontraron coincidencias o cambios para actualizar")
