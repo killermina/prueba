@@ -2,24 +2,35 @@ name: Actualizar desde prueba6.json
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # cada 6 horas (ajusta a diario si prefieres: '0 10 * * *')
-  workflow_dispatch:
+    - cron: '0 10 * * *'          # Todos los días a las 10:00 UTC (~07:00 Paraguay)
+  workflow_dispatch:              # Permite ejecutar manualmente desde la interfaz
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write               # Necesario para que pueda hacer commit
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout del repositorio
+        uses: actions/checkout@v5
+
+      - name: Configurar Python (si no está instalado por defecto)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'      # Versión reciente y estable
+
+      - name: Instalar dependencias necesarias (requests)
+        run: pip install requests
 
       - name: Actualizar urls, drm y headers
         run: python update_from_prueba6.py
 
-      - name: Commit si hubo cambios
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit automático si hubo cambios
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Actualización automática: urls, drm_license_uri y headers desde prueba6.json"
           file_pattern: comunJakare.json
           branch: main
+          skip_dirty_check: false
+          skip_fetch: false
