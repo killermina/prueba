@@ -612,41 +612,191 @@
   },
   {
     "type": "category",
-    "image": "https://i.ibb.co/Nd2FsWsZ/dazn1.png",
-    "title": "🎬 Infantiles",
+    "image": "https://i.ibb.co/k6cgFLwt/paraguay.png",
+    "title": "INFANTILES 👦",
     "items": [
       {
-        "name": "Cartunito",
-        "icono": "https://i.ibb.co/6JWVKxGp/cartunito.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/70.m3u8"
+                "name": "PLIM PLIM",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDuoSxWJVs5GQ4lmyXdk5wnizqVZ1jFS7svg&s",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
       },
       {
-        "name": "Cartoon Network",
-        "icono": "https://i.ibb.co/zV8kbKs0/cartoon-network.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/115.m3u8"
+                "name": "PAKA PAKA",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Paka-paka.svg/1200px-Paka-paka.svg.png",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
       },
       {
-        "name": "Discovery Kids",
-        "icono": "https://i.ibb.co/JWzb6QxN/discovery-Kids.png",
-        "url": "http://191.97.111.38:8000/play/a07r/18534623.m3u8"
+                "name": "PLIM PLIM",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDuoSxWJVs5GQ4lmyXdk5wnizqVZ1jFS7svg&s",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
       },
       {
-        "name": "Disney Channel",
-        "icono": "https://i.ibb.co/7t6kZvBy/disney-Channel.png",
-        "url": "http://191.97.111.38:8000/play/a06w/28480964.m3u8"
+                "name": "CARTOON NETWORK",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://i.ibb.co/zV8kbKs0/cartoon-network.png",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
       },
       {
-        "name": "Nickelodeon",
-        "icono": "https://i.ibb.co/whVg0SDj/nickelodeon.png",
-        "url": "http://201.219.193.210:3002/play/a0qm"
+                "name": "Nick Jr",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://lokos.pages.dev/webp/logos/nickjr.webp",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
       },
       {
-        "name": "Tooncast",
-        "icono": "https://i.ibb.co/4RdNLQL7/tooncast.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8"
+                "name": "Tooncast",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tooncast_logo.svg/1200px-Tooncast_logo.svg.png",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
+      },
+      {
+                "name": "Disney Channel",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://lokos.pages.dev/webp/logos/disney.webp",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
+      },
+      {
+                "name": "Discovery Kids",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://lokos.pages.dev/webp/logos/diskids.webp",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
+      },
+      {
+                "name": "Nickelodeon",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://lokos.pages.dev/webp/logos/nick.webp",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
+      },
+      {
+                "name": "Cartoonito",
+                "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/Plim_Plim/SA_Live_dash_enc/Plim_Plim.mpd",
+                "type": "CLEARKEY",
+                "drm_license_uri": "https://dl.dropbox.com/scl/fi/np7ipkvvlvy00w8xmcz2d/plimplim.json?rlkey=cstpu2ozeo12ed5ugdwfnalws&st=465tr4hs&dl=0",
+                "icono": "https://play-lh.googleusercontent.com/rlxooZ1FOBJ3YlXGuLr2Y02dE0eo6B5-1wy9X7vCPBXM7sVc5YFqSyGgUGGwfHpw3xI",
+                "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+                "headers": [
+         {
+            "name": "Origin",
+            "value": "https://portal.app.flow.com.py"
+          },
+                  {
+            "name": "Referer",
+            "value": "https://portal.app.flow.com.py/"
+          }
+                ]
       }
     ]
-  },
+      },
   {
     "type": "category",
     "image": "https://i.ibb.co/Nd2FsWsZ/dazn1.png",
