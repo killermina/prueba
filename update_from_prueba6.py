@@ -5,7 +5,14 @@ import re
 
 TARGET_FILE = "comunJakare.json"
 SOURCE_URL = "https://raw.githubusercontent.com/elvioladordemark/cijefcji/refs/heads/main/prueba6.json"
-TARGET_CATEGORY_TITLE = "Argentina"  # ← Cambia aquí si quieres otra categoría, ej: "🇵🇾PARAGUAY🇵🇾"
+
+# ================== AGREGA AQUÍ LAS CATEGORÍAS QUE QUIERES ACTUALIZAR ==================
+CATEGORY_MAPPING = {
+    "Argentina": "CANALES DE ARGENTINA",
+    "INFANTILES 👦": "INFANTILES 👦",           # ← Agregada aquí
+    # "Paraguay": "PARAGUAY GLOBAL 🇵🇾",
+    # "LANC TV": "⚽LANC TV⚽",
+}
 
 def normalize_name(name):
     if not name:
@@ -14,10 +21,9 @@ def normalize_name(name):
     name = unicodedata.normalize('NFD', name)
     name = ''.join(c for c in name if unicodedata.category(c) != 'Mn')
     name = re.sub(r'\s+', ' ', name)
-    # Reglas para coincidir mejor (ajusta según necesites)
     name = name.replace("tv pública", "televisión pública").replace("tv publica", "televisión pública")
     name = name.replace("américa tv", "america tv").replace("america television", "america tv")
-    name = name.replace("telefe", "telefe").replace("el trece", "trece")
+    name = name.replace("el trece", "trece")
     return name
 
 # Descargar fuente
@@ -25,67 +31,66 @@ response = requests.get(SOURCE_URL)
 response.raise_for_status()
 source_data = response.json()
 
-# Mapa solo de la categoría relevante en el fuente
+# Crear mapa de actualizaciones
 source_map = {}
-found_source_cat = False
-for cat in source_data:
-    cat_name = cat.get("name", "").strip()
-    if "argentina" in cat_name.lower():  # Busca "CANALES DE ARGENTINA" o similar
-        found_source_cat = True
-        for item in cat.get("samples", []):
+for src_cat in source_data:
+    src_name = src_cat.get("name", "").strip()
+    target_title = next((t for t, s in CATEGORY_MAPPING.items() if s.lower() in src_name.lower() or t.lower() in src_name.lower()), None)
+    
+    if target_title:
+        print(f"✓ Categoría encontrada en fuente: {src_name} → se actualizará '{target_title}'")
+        for item in src_cat.get("samples", []):
             norm_name = normalize_name(item.get("name", ""))
             if norm_name:
                 source_map[norm_name] = {
                     "url": item.get("url", ""),
                     "drm_license_uri": item.get("drm_license_uri", "")
                 }
-        break  # Solo tomamos la primera categoría que coincida
-
-if not found_source_cat:
-    print("No se encontró categoría con 'argentina' en el fuente → no se actualiza nada")
-else:
-    print(f"Encontrada categoría fuente con {len(source_map)} items potenciales")
 
 # Cargar tu JSON
 with open(TARGET_FILE, 'r', encoding='utf-8') as f:
     target = json.load(f)
 
-updated = False
 updated_count = 0
-updated_names = []
+updated_categories = []
 
-# Solo procesar la categoría específica
 for category in target:
-    if category.get("type") == "category" and category.get("title") == TARGET_CATEGORY_TITLE:
-        print(f"Procesando categoría '{TARGET_CATEGORY_TITLE}' con {len(category.get('items', []))} items originales")
-        for item in category.get("items", []):
-            norm_name = normalize_name(item.get("name", ""))
-            if norm_name in source_map:
-                new_data = source_map[norm_name]
-                changed = False
+    title = category.get("title")
+    if title not in CATEGORY_MAPPING:
+        continue
 
-                if new_data["url"] and new_data["url"] != item.get("url", ""):
-                    old_url = item.get("url", "ninguna")
-                    item["url"] = new_data["url"]
-                    changed = True
-                    print(f"  - Actualizado url en '{item.get('name')}': {old_url[:50]}... → {new_data['url'][:50]}...")
+    print(f"\nProcesando categoría: {title}")
+    items = category.get("items", [])
+    cat_updated = 0
 
-                if new_data["drm_license_uri"] and new_data["drm_license_uri"] != item.get("drm_license_uri", ""):
-                    old_drm = item.get("drm_license_uri", "ninguna")
-                    item["drm_license_uri"] = new_data["drm_license_uri"]
-                    changed = True
-                    print(f"  - Actualizado drm en '{item.get('name')}': {old_drm[:50]}... → {new_data['drm_license_uri'][:50]}...")
+    for item in items:
+        norm_name = normalize_name(item.get("name", ""))
+        if norm_name in source_map:
+            new_data = source_map[norm_name]
+            changed = False
 
-                if changed:
-                    updated = True
-                    updated_count += 1
-                    updated_names.append(item.get("name", "sin nombre"))
+            if new_data["url"] and new_data["url"] != item.get("url", ""):
+                item["url"] = new_data["url"]
+                changed = True
 
-        break  # No necesitamos seguir buscando categorías
+            if new_data["drm_license_uri"] and new_data["drm_license_uri"] != item.get("drm_license_uri", ""):
+                item["drm_license_uri"] = new_data["drm_license_uri"]
+                changed = True
 
-if updated:
+            if changed:
+                updated_count += 1
+                cat_updated += 1
+                print(f"   → Actualizado: {item.get('name')}")
+
+    if cat_updated > 0:
+        updated_categories.append(f"{title} ({cat_updated} items)")
+
+# Guardar cambios
+if updated_count > 0:
     with open(TARGET_FILE, 'w', encoding='utf-8') as f:
         json.dump(target, f, ensure_ascii=False, indent=2, sort_keys=False)
-    print(f"✅ Actualizados {updated_count} items en '{TARGET_CATEGORY_TITLE}': {', '.join(updated_names)}")
+    print(f"\n✅ ¡Éxito! Se actualizaron {updated_count} items en total:")
+    for cat in updated_categories:
+        print(f"   • {cat}")
 else:
-    print(f"No hubo cambios válidos en '{TARGET_CATEGORY_TITLE}'")
+    print("\nNo se encontraron cambios en las categorías configuradas.")
