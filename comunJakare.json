@@ -168,7 +168,7 @@
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=8ea235ce0826408b221c498115a9b62d&key=7aa9266ed91ea4510483370029dfcf45"
       },
       {
-        "name": "Tv Republica",
+        "name": "Tv Publica",
         "icono": "https://i.ibb.co/6cvkTygb/Televisi-n-P-blica-Argentina-2021.png",
         "url": "https://edge6-ccast-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0MTA3MjY3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjEwZmYwMzVkYTFkMTgwMTIiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE0IiwiYXVkIjoiMjI1Iiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.VzQPP19TB5bJx22DK-pTaHUtqfVTvEXrSH63zVVsWaTd8fMOUXDPVNCUlMkPuPqtCKiMT1WmpKIr8REnCqUkyg==/live/c6eds/Canal7/SA_Live_dash_enc_C/Canal7.mpd",
         "type": "CLEARKEY",
@@ -190,13 +190,13 @@
       },
       {
         "name": "El Trece",
-        "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_Canal_13_200_8.png/800px-Logo_Canal_13_200_8.png",
+        "icono": "https://i.ibb.co/bgDXPZ01/image.png",
         "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c3eds/ArtearHD/SA_Live_dash_enc/ArtearHD.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://dl.dropbox.com/scl/fi/xghil2hmiyc4afg8ibuvp/trece.json?rlkey=3ijcz4cad4f6qzpfr8g5ogzoz&st=ysd9g4at&dl=08688f094d092"
       },
       {
-        "name": "El Trece",
+        "name": "TN NOTICIAS",
         "icono": "https://i.ibb.co/dsvcQTLn/todo-noticias-logo-png-seeklogo-462511.png",
         "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c3eds/ArtearHD/SA_Live_dash_enc/ArtearHD.mpd",
         "type": "CLEARKEY",
@@ -208,6 +208,34 @@
         "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c7eds/La_Nacion/SA_Live_dash_enc_C/La_Nacion.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=f4eade7bbc39b25402acfa301bbad04a&key=a74d1df4235a74878327aa8d53ff283c"
+      },
+      {
+        "name": "C5N",
+        "icono": "https://i.ibb.co/p6GQ3L3m/68747470733a2f2f692e696d6775722e636f6d2f453370616d41352e706e67.png",
+        "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c7eds/C5N/SA_Live_dash_enc_C/C5N.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=050df5c6e78c774e78c3e99eef8a1b29&key=0e4141d6ab21a36cbc4da777ab3096d4"
+      },
+      {
+        "name": "CRONICA TV",
+        "icono": "https://i.ibb.co/DHhzqNrr/unnamed.png",
+        "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c7eds/CronicaTV/SA_Live_dash_enc_C/CronicaTV.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=745e7abcc90d41ab706b2ac2f4371da3&key=50acd9d19d1361cb4a8a13a867bdc352"
+      },
+      {
+        "name": "A24",
+        "icono": "https://i.ibb.co/WWfTn7M9/LnXQkIU.png",
+        "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c7eds/America24/SA_Live_dash_enc_C/America24.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=3b1b027dd011af20fd9956c16dc084fb&key=45f75aacf06593c9b693fe427c67e5b8"
+      },
+      {
+        "name": "CANAL 26",
+        "icono": "https://i.ibb.co/60XLr3MX/canal26-logo.png",
+        "url": "https://edge-live02-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc0NDU0MzM3Iiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU3MTRmNmQyODIzZWY0NjAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE1IiwiYXVkIjoiMzAwIiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.jlWW8a6zzQ9C594-vTNeQZXl5L4cP1uBNHea_VZ6ZkAXBmYp2z2k99Q_82LdVp4QWKlMIpjtnbNsNOgJQQV_FQ==/live/c6eds/26_TV_HD/SA_Live_dash_enc_C/26_TV_HD.mpd",
+        "type": "CLEARKEY",
+        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=e32aaa4b67430b3b51be1efce5a74ac5&key=ad60c5e1d378a97271bf8688f094d092"
       }
     ]
   },
