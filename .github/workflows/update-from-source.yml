@@ -2,7 +2,7 @@ name: Actualizar desde prueba6.json
 
 on:
   schedule:
-    - cron: '0 10 * * *'          # diario ~07:00 Paraguay
+    - cron: '2 0 * * *'    # ← 21:02 Paraguay = 00:02 UTC del día siguiente
   workflow_dispatch:              # para probar manual
 
 jobs:
