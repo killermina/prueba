@@ -20,6 +20,13 @@
       },
       {
         "name": "EVENTOS 3 HD",
+        "url": "https://sam-py-edge05.tigo.com.py/ccur-session/699ba80226/out/v1/c2cc7832b5b64aedacb0e459fd9d8398/index.mpd",
+        "type": "CLEARKEY",
+         "drm_license_uri": "https://dl.dropbox.com/scl/fi/kg654aptb3wmdvhw1e06i/tigo3.json?rlkey=lz1ve7n2e77c4xylazzpn4qgz&st=vef4p50k&dl=0",
+        "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
+      },
+      {
+        "name": "En Vivo",
         "url": "http://45.170.130.224:8000/play/a04i/index.m3u8",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
@@ -33,12 +40,6 @@
         "name": "TIGO WEB 2",
         "type": "webview",
         "url": "https://killermina.github.io/player2/",
-        "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
-      },
-      {
-        "name": "TIGO WEB 3",
-        "type": "webview",
-        "url": "https://streamtpcloud.com/global2.php?stream=tigosportsparaguay",
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
       }
     ]
