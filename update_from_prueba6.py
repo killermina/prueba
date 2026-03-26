@@ -6,12 +6,10 @@ import re
 TARGET_FILE = "comunJakare.json"
 SOURCE_URL = "https://raw.githubusercontent.com/elvioladordemark/cijefcji/refs/heads/main/prueba6.json"
 
-# ================== AGREGA AQUÍ LAS CATEGORÍAS QUE QUIERES ACTUALIZAR ==================
+# ================== CATEGORÍAS A ACTUALIZAR ==================
 CATEGORY_MAPPING = {
     "Argentina": "CANALES DE ARGENTINA",
-    "INFANTILES 👦": "INFANTILES 👦",           # ← Agregada aquí
-    # "Paraguay": "PARAGUAY GLOBAL 🇵🇾",
-    # "LANC TV": "⚽LANC TV⚽",
+    "INFANTILES 👦": "INFANTILES 👦",
 }
 
 def normalize_name(name):
@@ -27,29 +25,45 @@ def normalize_name(name):
     return name
 
 # Descargar fuente
-response = requests.get(SOURCE_URL)
-response.raise_for_status()
-source_data = response.json()
+try:
+    response = requests.get(SOURCE_URL)
+    response.raise_for_status()
+    # Usamos text y luego json.loads para tener más control si hay errores de formato
+    source_data = json.loads(response.text)
+except Exception as e:
+    print(f"❌ Error al descargar o leer la fuente: {e}")
+    exit()
 
 # Crear mapa de actualizaciones
 source_map = {}
 for src_cat in source_data:
+    if not isinstance(src_cat, dict): continue
+    
     src_name = src_cat.get("name", "").strip()
     target_title = next((t for t, s in CATEGORY_MAPPING.items() if s.lower() in src_name.lower() or t.lower() in src_name.lower()), None)
     
     if target_title:
         print(f"✓ Categoría encontrada en fuente: {src_name} → se actualizará '{target_title}'")
         for item in src_cat.get("samples", []):
-            norm_name = normalize_name(item.get("name", ""))
-            if norm_name:
+            name_raw = item.get("name", "")
+            # --- LIMPIEZA DE ERROR EN URL (SALTO DE LÍNEA) ---
+            url_raw = item.get("url", "").strip() if item.get("url") else ""
+            drm_raw = item.get("drm_license_uri", "").strip() if item.get("drm_license_uri") else ""
+            
+            if name_raw and url_raw:
+                norm_name = normalize_name(name_raw)
                 source_map[norm_name] = {
-                    "url": item.get("url", ""),
-                    "drm_license_uri": item.get("drm_license_uri", "")
+                    "url": url_raw,
+                    "drm_license_uri": drm_raw
                 }
 
-# Cargar tu JSON
-with open(TARGET_FILE, 'r', encoding='utf-8') as f:
-    target = json.load(f)
+# Cargar tu JSON local
+try:
+    with open(TARGET_FILE, 'r', encoding='utf-8') as f:
+        target = json.load(f)
+except FileNotFoundError:
+    print(f"❌ No se encontró el archivo local: {TARGET_FILE}")
+    exit()
 
 updated_count = 0
 updated_categories = []
@@ -69,6 +83,7 @@ for category in target:
             new_data = source_map[norm_name]
             changed = False
 
+            # Solo actualizamos URL y DRM (Headers se mantienen intactos)
             if new_data["url"] and new_data["url"] != item.get("url", ""):
                 item["url"] = new_data["url"]
                 changed = True
@@ -93,4 +108,4 @@ if updated_count > 0:
     for cat in updated_categories:
         print(f"   • {cat}")
 else:
-    print("\nNo se encontraron cambios en las categorías configuradas.")
+    print("\nNo se encontraron cambios o los datos ya están actualizados.")
