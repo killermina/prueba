@@ -436,25 +436,30 @@
     "title": "⚽DSPORT⚽",
     "items": [
       {
-        "name": "DIRECTV SPORTS ",
+        "name": "DIRECTV SPORTS",
         "url": "http://tv.m3uts.xyz/stream/secure/BGV5KmZkAI8mAl4lZmNhAGthAmAsZGp3AQH2AwD0Ay9uLwLmZ2L1AmIxMTMzA2WvKmN/315.m3u8",
-         "type": "hls",
+        "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTMwX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
+        "type": "hls",
         "user": "Magma Player/10",
         "headers": [
-            {
-                "name": "X-App",
-                "value": "ps"
-            },
-            {
-                "name": "X-Version",
-                "value": "10/1.0.9"
-            },
-            {
-                "name": "X-Did",
-                "value": "ab633f575ddff7bb"
-            }
-]
-},
+          {
+            "name": "X-App",
+            "value": "di"
+          },
+          {
+            "name": "X-Hash",
+            "value": "bUWouF9zufxct3TJup7TsoyFf2zgQPqJd4LrPeyBFYXilmggTal3UZh1jLN_azi0CZ4xnxxXEz3oBUWMrFVn0hOiNK2BFYyOY6DhECJ_svjRqijqN0ln9S13O5oMn7259nDnBfR_gZV59Keox1EOWWXjlqQkxpDz4Utx1Y23JZkNmI_XDUVqmy3ln1hqP_FiYH_KkWqpXxaWFoBQP-IMUsGfA0oUeRnuCkaXN938mZWuwtOYKJ3UyEUdVhcWNRn21XGMZgenR-2mBrBe_uxwUmY5m8oLURUTHV6C9NepWW4m5S4YQj1WxbEo5z88ZIgbnH7eEmaxPZEgt_m8FA8lPaBcyd3yv5_mSQatdJS-1BgzQlz3gikc3WZKulllol53Xzdlu_gm1oDtcvMO_1xzLkBO8VTW6PXfk122ug5TfaZf0ExhqNNZE4epYomJOItALMFEkRfpivDHGX3N5xfa0QVVmDlXzbUgPVAFdwC-OAUbkOa4WelUTrsvVvLFdW0T50-wdoKWGMCCnur7fZp5Rw"
+          },
+          {
+            "name": "X-Version",
+            "value": "10/1.0.9"
+          },
+          {
+            "name": "X-Did",
+            "value": "ab633f575ddff7bb"
+          }
+        ]
+      },
       {
         "name": "DIRECTV SPORTS 2",
         "url": "http://magmaplayer.com/stream/secure/ZwR3KmRkAQEsZmphZwZjYwH4YwRkAS8kAmL5AwVmZwV2K2SvAwZmMwH3AJExMzL3LzWsZN.m3u8",
