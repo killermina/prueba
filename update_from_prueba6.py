@@ -19,25 +19,21 @@ def normalize_name(name):
     name = re.sub(r'[^a-z0-9]', '', name) 
     return name
 
-# 1. Descargar y LIMPIAR el JSON malformado
+# 1. Descargar y LIMPIAR el JSON (Evita el Invalid control character)
 try:
     response = requests.get(SOURCE_URL)
     response.raise_for_status()
-    
-    # --- TRUCO PARA EL ERROR DE CARÁCTER INVÁLIDO ---
-    # Reemplazamos los saltos de línea reales dentro del texto por nada
-    # Esto arregla el error "Invalid control character"
+    # Limpiamos saltos de línea que rompen el formato
     raw_data = response.text.replace('\n', '').replace('\r', '')
-    
-    # Ahora que está limpio, lo cargamos como JSON
     source_data = json.loads(raw_data)
 except Exception as e:
-    print(f"❌ Error al limpiar/procesar la fuente: {e}")
+    print(f"❌ Error fuente: {e}")
     exit()
 
 # 2. Crear mapa de actualizaciones
 source_map = {}
 for src_cat in source_data:
+    if not isinstance(src_cat, dict): continue
     src_name = src_cat.get("name", "").strip()
     target_title = next((t for t, s in CATEGORY_MAPPING.items() if s.lower() in src_name.lower() or t.lower() in src_name.lower()), None)
     
@@ -46,9 +42,10 @@ for src_cat in source_data:
             name_raw = item.get("name", "")
             if name_raw:
                 norm_name = normalize_name(name_raw)
+                # IMPORTANTE: Guardamos con el nombre exacto de la llave
                 source_map[norm_name] = {
                     "url": item.get("url", "").strip(),
-                    "drm": item.get("drm_license_uri", "").strip()
+                    "drm_license_uri": item.get("drm_license_uri", "").strip()
                 }
 
 # 3. Cargar y actualizar local
@@ -72,12 +69,15 @@ for category in target:
             new_data = source_map[norm_local]
             changed = False
 
-            if new_data["url"] and new_data["url"] != item.get("url", ""):
+            # Actualizar URL
+            if new_data.get("url") and new_data["url"] != item.get("url", ""):
                 item["url"] = new_data["url"]
                 changed = True
 
-            if new_data["drm"] and new_data["drm"] != item.get("drm_license_uri", ""):
-                item["drm_license_uri"] = new_data["drm_license_uri"]
+            # Actualizar DRM (usando .get para evitar el KeyError)
+            new_drm = new_data.get("drm_license_uri", "")
+            if new_drm and new_drm != item.get("drm_license_uri", ""):
+                item["drm_license_uri"] = new_drm
                 changed = True
 
             if changed:
@@ -89,4 +89,4 @@ if updated_count > 0:
         json.dump(target, f, ensure_ascii=False, indent=2)
     print(f"✅ Éxito: Se actualizaron {updated_count} canales.")
 else:
-    print("⚠️ No hubo cambios (los nombres quizás no coinciden o ya están actualizados).")
+    print("⚠️ No hubo cambios.")
