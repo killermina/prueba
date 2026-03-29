@@ -5,6 +5,8 @@ on:
     # 01:05 PM PY = 17:05 UTC | 09:05 PM PY = 01:05 UTC (del día siguiente)
     - cron: '5 17,1 * * *'
   workflow_dispatch:              # para probar manual
+  repository_dispatch:     # <-- ESTO es lo que activa el bot
+    types: [update_from_bot]
 
 jobs:
   update:
