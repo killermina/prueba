@@ -2,7 +2,8 @@ name: Actualizar desde prueba6.json
 
 on:
   schedule:
-    - cron: '2 0 * * *'    # ← 21:02 Paraguay = 00:02 UTC del día siguiente
+    # 01:05 PM PY = 17:05 UTC | 09:05 PM PY = 01:05 UTC (del día siguiente)
+    - cron: '5 17,1 * * *'
   workflow_dispatch:              # para probar manual
 
 jobs:
@@ -24,7 +25,12 @@ jobs:
         run: pip install requests
 
       - name: Actualizar solo url y drm_license_uri
-        run: python update_from_prueba6.py
+        id: run_script
+        run: |
+          # Ejecutamos el script y guardamos todo lo que imprima en un archivo
+          python update_from_prueba6.py > log_telegram.txt
+          # También lo mostramos en la consola de GitHub por si acaso
+          cat log_telegram.txt
 
       - name: Commit automático si hubo cambios
         uses: stefanzweifel/git-auto-commit-action@v7
@@ -34,3 +40,15 @@ jobs:
           branch: main
           skip_dirty_check: false
           skip_fetch: false
+
+      - name: Notificar por Telegram
+        if: always() # Para que te avise incluso si el script falla
+        run: |
+          # Leemos el log que generó el script de Python
+          REPORT=$(cat log_telegram.txt)
+          
+          # Enviamos a Telegram
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage" \
+            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d "text=🚀 *Nitro Play+ Update* %0A%0A$REPORT" \
+            -d "parse_mode=Markdown"
