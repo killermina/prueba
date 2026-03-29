@@ -35,7 +35,7 @@ jobs:
       - name: Commit automático si hubo cambios
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "Actualización automática: urls y drm_license_uri desde prueba6.json"
+          commit_message: "Actualización automática: urls y drm_license_uri"
           file_pattern: comunJakare.json
           branch: main
           skip_dirty_check: false
