@@ -1,0 +1,15 @@
+name: Test de Conexión Telegram
+
+on:
+  workflow_dispatch: # Esto activa el botón manual
+
+jobs:
+  prueba_mensaje:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviando mensaje de prueba
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage" \
+            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d "text=🔔 *¡Conexión Exitosa!* %0A%0AEl bot de Nitro Play+ ya puede hablar con GitHub Actions. ✅" \
+            -d "parse_mode=Markdown"
