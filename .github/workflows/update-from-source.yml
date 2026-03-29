@@ -28,7 +28,7 @@ jobs:
         id: run_script
         run: |
           # Ejecutamos el script y guardamos todo lo que imprima en un archivo
-          python update_from_prueba6.py > log_telegram.txt
+          python autoUpdate.py > log_telegram.txt
           # También lo mostramos en la consola de GitHub por si acaso
           cat log_telegram.txt
 
