@@ -1,4 +1,4 @@
-name: Actualizar desde prueba6.json
+name: autoUpdate.json
 
 on:
   schedule:
