@@ -50,5 +50,5 @@ jobs:
           # Enviamos a Telegram
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
-            -d "text=🚀 *Nitro Play+ Update* %0A%0A$REPORT" \
+            -d "text=🚀 *Tv Ultimate+ Update* %0A%0A$REPORT" \
             -d "parse_mode=Markdown"
