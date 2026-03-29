@@ -9,6 +9,9 @@ SOURCE_URL = "https://raw.githubusercontent.com/elvioladordemark/cijefcji/refs/h
 CATEGORY_MAPPING = {
     "Argentina": "CANALES DE ARGENTINA",
     "INFANTILES 👦": "INFANTILES 👦",
+    "⚽ FOX SPORTS ⚽": "⚽DEPORTES ESPN Y FOX SPORTS ​🇦🇷",
+    "⚽TyC SPORTS⚽": "⚽🇦🇷PACK FUTBOL ARGENTINO",
+    "🎬 Cultura y Cocina": "CULTURA Y COCINA 🐢",
 }
 
 def normalize_name(name):
