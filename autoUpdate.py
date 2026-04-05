@@ -12,6 +12,7 @@ CATEGORY_MAPPING = {
     "⚽ FOX SPORTS ⚽": "⚽DEPORTES ESPN Y FOX SPORTS ​🇦🇷",
     "⚽TyC SPORTS⚽": "⚽🇦🇷PACK FUTBOL ARGENTINO",
     "🎬 Cultura y Cocina": "CULTURA Y COCINA 🐢",
+    "⚽EVENTOS FLOW COPA DEL REY⚽": "⚽EVENTOS FLOW COPA DEL REY⚽",
 }
 
 def normalize_name(name):
