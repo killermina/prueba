@@ -26,6 +26,12 @@
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
       {
+        "name": "tigo Prueba",
+        "url": "https://j8nte.envivoslatam.org/hotflix/fanatiz4/index.m3u8?token=3e80736e85ec97da3af5fd9c83b7cbe84d9578a7-2e-1775481164-1775427164",
+        "type": "hls",
+        "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
+      },
+      {
         "name": "En Vivo",
         "url": "http://45.170.130.224:8000/play/a04i/index.m3u8",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
