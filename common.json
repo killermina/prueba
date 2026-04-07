@@ -1,10 +1,12 @@
 [
   {
+    "visible": "false",
     "type": "category",
     "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
     "title": "🇵🇾TIGO SPORTS🇵🇾",
     "items": [
       {
+        "visible": "true",
         "name": "EVENTO 1 HD",
         "url": "https://d3kzwqwnq1f7tq.cloudfront.net/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd",
         "type": "CLEARKEY",
@@ -43,7 +45,6 @@
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
       }
     ]
-    
   },
   {
     "type": "category",
