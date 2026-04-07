@@ -1,6 +1,5 @@
 [
   {
-    "type": "category",
     "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
     "title": "🇵🇾TIGO SPORTS🇵🇾",
     "items": [
@@ -42,9 +41,10 @@
         "url": "https://killermina.github.io/player2/",
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
       }
-    ]
+    ],
+    "//type": "category"
   },
-    {
+  {
     "type": "category",
     "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
     "title": "⚽EVENTOS FLOW COPA DEL REY⚽",
@@ -55,7 +55,7 @@
         "type": "CLEARKEY",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=5c86e237317c2231ac1bc130e995fad6&key=dcacf7b239ee03df3c69ca11dbcde4eb",
         "icono": "https://i.postimg.cc/9frTqBtY/download-(50).png"
-  },
+      },
       {
         "name": "EVENTOS FLOW 2",
         "url": "https://edge-live10-hr.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1NTA5NDIxIiwic2lwIjoiMTc5LjI3LjIwMC4zMCIsInBhdGgiOiIvblBWUi9jNmVkcy82OV9URUxFRkVfVF8yMDI2MDQwNDEzNTUtMjAyNjA0MDQyMTE1X09OX0FuZXZpYTYvU0FfTGl2ZV9kYXNoX2VuYy8iLCJzZXNzaW9uX2Nkbl9pZCI6ImU1M2FiODBjMDQ0YjYxM2QiLCJzZXNzaW9uX2lkIjoiODkyNDIzMDMtMTc3NTMzNjYyMC00MjgiLCJjbGllbnRfaWQiOiI5OTk5MDAwMDEzNTM3MjItLTExNTExMzI3IiwiZGV2aWNlX2lkIjoiODkyNDIzMDMiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTQiLCJhdWQiOiIzMTUiLCJzb3VyY2VzIjpbODUsMTc0LDg4XX0=.Vi1YNcUMqb22ejIjgQOFPj27XXQ4Y_v9243WPKRjM-9cnAE9YQrWjAxawmT-Kz40-vh-GKjWTt2oYXYPNs3_zw==/live/c6eds/Eventos_2_HD/SA_Live_dash_enc_wl/Eventos_2_HD.mpd",
@@ -64,7 +64,7 @@
         "icono": "https://i.postimg.cc/9frTqBtY/download-(50).png"
       }
     ]
-    },
+  },
   {
     "type": "category",
     "image": "https://i.ibb.co/k6cgFLwt/paraguay.png",
