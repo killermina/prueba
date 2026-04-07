@@ -1,8 +1,9 @@
 [
   {
-    "//image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
-    "//title": "🇵🇾TIGO SPORTS🇵🇾",
-    "//items": [
+    "type": "category",
+    "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
+    "title": "🇵🇾TIGO SPORTS🇵🇾",
+    "items": [
       {
         "name": "EVENTO 1 HD",
         "url": "https://d3kzwqwnq1f7tq.cloudfront.net/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd",
@@ -41,8 +42,8 @@
         "url": "https://killermina.github.io/player2/",
         "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
       }
-    ],
-    "//type": "category"
+    ]
+    
   },
   {
     "type": "category",
