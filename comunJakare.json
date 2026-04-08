@@ -423,13 +423,6 @@
         "drm_license_uri": "https://dl.dropboxusercontent.com/scl/fi/2h8t724qefpmbxy7pc3z3/clearkey_tntsports.json?rlkey=b1atg34l31mcea91btzz9a9ia&st=icijhveh&dl=0"
       },
       {
-        "name": "TYC SPORTS INTERNACIONAL",
-        "url": "https://cdn.cvattv.com.ar/live/c3eds/TyC_Internacional/SA_Live_dash_enc/TyC_Internacional.mpd?*",
-        "type": "CLEARKEY",
-        "drm_license_uri": "https://m3ukodi.com/php/clearkey_hextobase64/results.php?keyid%5B%5D=58e1ebe75d944f6a98ea67b1c7c0a572&key%5B%5D=1c311b069dbce31ce8e62a6e7e2433eb",
-        "icono": "https://i.ibb.co/tK20mxz/tycsports.png"
-      },
-      {
         "name": "TYC SPORT PLAY 1",
         "url": "https://d320m3arb2wo8b.cloudfront.net/out/v1/34e0da501a8c4489b713809eb08a9bf3/index.m3u8",
         "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
@@ -450,13 +443,13 @@
         "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
       },
       {
-        "name": "TYC SPORT (PLAY 5)",
-        "url": "https://d107yb993altze.cloudfront.net/out/v1/772e0b0193134726ad84693b7baca6c6/index_9.m3u8",
+        "name": "TYC SPORT (PLAY 6)",
+        "url": "https://d21no6qan3ol31.cloudfront.net/out/v1/a2f25f61e9d44701aa4e813ac5efc4a4/index.m3u8",
         "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
       },
       {
-        "name": "TYC SPORT (PLAY 6)",
-        "url": "https://d21no6qan3ol31.cloudfront.net/out/v1/a2f25f61e9d44701aa4e813ac5efc4a4/index.m3u8",
+        "name": "TYC SPORT (PLAY 5)",
+        "url": "https://d107yb993altze.cloudfront.net/out/v1/772e0b0193134726ad84693b7baca6c6/index_9.m3u8",
         "icono": "https://i.ibb.co/njgDHwJ/unnamed.webp"
       }
     ]
@@ -468,7 +461,7 @@
     "items": [
       {
         "name": "DIRECTV SPORTS",
-        "url": "http://tv.m3uts.xyz/stream/secure/BGV5KmZkAI8mAl4lZmNhAGthAmAsZGp3AQH2AwD0Ay9uLwLmZ2L1AmIxMTMzA2WvKmN/315.m3u8",
+        "url": "http://tv.m3uts.xyz/stream/secure/ZGLjKmZkZy8kZmthAGxhZwV2YwtmKmR3AmH2BQHlAQusLJV2ZmAzAGp1MTEzMwqvLy8j/312.m3u8",
         "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTMwX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
         "type": "hls",
         "user": "Magma Player/10",
@@ -493,7 +486,7 @@
       },
       {
         "name": "DIRECTV SPORTS 2",
-        "url": "http://magmaplayer.com/stream/secure/ZwR3KmRkAQEsZmphZwZjYwH4YwRkAS8kAmL5AwVmZwV2K2SvAwZmMwH3AJExMzL3LzWsZN.m3u8",
+        "url": "http://tv.m3uts.xyz/stream/secure/AmHjKmZkA18kZmthAGxhZwV2YwtmKmR3AmH2BQH0AmIsLJV2ZmAzAGp1MTEzMwqvLy8j/317.m3u8",
         "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTMwX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
         "type": "hls",
         "user": "Magma Player/10",
@@ -518,7 +511,7 @@
       },
       {
         "name": "DIRECTV SPORTS PLUS",
-        "url": "http://magmaplayer.com/stream/secure/BGZ5KmZkAS8mAl4lZmNhAGthZGR0KmR3Awx2ZwZmAQMsLJV2ZmAzAGp1MTEzMwqvLy8j.m3u8",
+        "url": "http://tv.m3uts.xyz/stream/secure/ZGN3KmZkAS8kZmthAGxhZwV2YwtmKmR3AmH2BQH0ZGSsLJV2ZmAzAGp1MTEzMwqvLy8j/314.m3u8",
         "icono": "https://i.ibb.co/rG8VJmk2/Y2gw-MTAw-MDAw-MDAw-MTM5-X2xpbm-Vhcl9ja-GFubm-Vs-X3-Nzb-GE-11002-LOGO-360x270.png",
         "type": "hls",
         "user": "Magma Player/10",
