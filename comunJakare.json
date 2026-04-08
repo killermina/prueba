@@ -449,6 +449,16 @@
         "url": "https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8",
         "icono": "https://i.ibb.co/RpXS2q5Y/image.png",
         "type": "hls"
+      },
+      {
+        "name": "Garage Tv",
+        "url": "https://stream1.sersat.com/hls/garagetv.m3u8",
+        "icono": "https://i.ibb.co/xKgNJsSr/image.png"
+      },
+      {
+        "name": "Motor Vision",
+        "url": "https://mvg-mv-pt.otteravision.com/mvg/mv_pt/mv_pt.m3u8",
+        "icono": "https://i.ibb.co/0pT7WFQ2/image.png"
       }
     ]
   },
