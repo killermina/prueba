@@ -26,12 +26,6 @@
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
       {
-        "name": "tigo Prueba",
-        "url": "https://j8nte.envivoslatam.org/hotflix/fanatiz4/index.m3u8?token=3e80736e85ec97da3af5fd9c83b7cbe84d9578a7-2e-1775481164-1775427164",
-        "type": "hls",
-        "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
-      },
-      {
         "name": "En Vivo",
         "url": "http://45.170.130.224:8000/play/a04i/index.m3u8",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
@@ -299,9 +293,10 @@
       {
         "name": "ESPN 5",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s86787_dark_360w_270h.png",
-        "url": "http://177.10.184.193:8000/play/a0de/index.m3u8",
+        "url": "https://edge-live31-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1NzYwMTgzIiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6ImU4NTMyZDc5MzhjNjdhM2QiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTIyIiwiYXVkIjoiOTQiLCJzb3VyY2VzIjpbODUsMTQ0LDg2LDg4XX0=.0ykmIpUIvTpkethC5mEdH3fAkEB8tgK_FWS0dza7cCDwHbXE1wIvnCwHSNi27rI8YMHRa8Xbx-aSKX0IKQRB1A==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=24f2b3e741f0d9e9a8d516faff38bddc&key=bbd3fd02fb104e1463ac528a13f67e4a",
-        "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+        "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "type": "CLEARKEY"
       },
       {
         "name": "ESPN 6",
