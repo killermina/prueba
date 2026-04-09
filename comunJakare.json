@@ -269,7 +269,7 @@
       {
         "name": "ESPN 1",
         "icono": "https://assetshuluimcom-a.akamaihd.net/h3o/landing/networks/wall/espn-network-logo.png",
-        "url": "http://45.170.130.224:8000/play/a04l/index.m3u8",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=e884b711ab111beb8a7ba1e7bcbdc9bf&key=cb89ee3961599e3e648a5aad60895f34",
@@ -287,7 +287,7 @@
       {
         "name": "ESPN 2",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_dark_360w_270h.png",
-        "url": "http://45.171.64.30:8800/play/a08t",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
         "type": "CLEARKEY",
         "drm_license_uri": "https://dl.dropbox.com/scl/fi/71e1ciyrsrkfsc0yen7p2/espn2.json?rlkey=gzudy6x2a45avcnnough76kw1&st=bmo7ibra&dl=0",
@@ -305,15 +305,15 @@
       {
         "name": "ESPN 3",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73833_dark_360w_270h.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/90.m3u8",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
         "type": "CLEARKEY",
-        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=f4c9f97e2a36feab0e5077f2b44cbc4e&key=1743cd03dfe3736b2c95da91a783af38\"",
+        "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=f4c9f97e2a36feab0e5077f2b44cbc4e&key=1743cd03dfe3736b2c95da91a783af38",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
       },
       {
         "name": "ESPN 4",
         "icono": "https://static.flow.com.ar/images/279/CH_LOGO/60/40/0/0/43362732071132.png",
-        "url": "http://177.10.184.193:8000/play/a0dp/index.m3u8",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=cc8d44406ed6bf1898ad9f7a2d64f29e&key=fb85d059687ab0fc67805806204edbdf",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
         "type": "CLEARKEY"
@@ -321,7 +321,7 @@
       {
         "name": "ESPN 5",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s86787_dark_360w_270h.png",
-        "url": "https://edge-live31-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1NzYwMTgzIiwic2lwIjoiMTg2LjEyLjE4NC4yMzkiLCJwYXRoIjoiL2xpdmUvYzVlZHMvQzlOX0M0L1NBX0xpdmVfZGFzaF9lbmNfQy8iLCJzZXNzaW9uX2Nkbl9pZCI6ImU4NTMyZDc5MzhjNjdhM2QiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTIyIiwiYXVkIjoiOTQiLCJzb3VyY2VzIjpbODUsMTQ0LDg2LDg4XX0=.0ykmIpUIvTpkethC5mEdH3fAkEB8tgK_FWS0dza7cCDwHbXE1wIvnCwHSNi27rI8YMHRa8Xbx-aSKX0IKQRB1A==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=24f2b3e741f0d9e9a8d516faff38bddc&key=bbd3fd02fb104e1463ac528a13f67e4a",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
         "type": "CLEARKEY"
@@ -329,7 +329,7 @@
       {
         "name": "ESPN 6",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s99633_dark_360w_270h.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/25.m3u8",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=5fc7b662e69c0fbf8d39691166b1c919&key=89157cdd25df25d56f1ecccee3850888",
         "type": "CLEARKEY",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
@@ -337,7 +337,7 @@
       {
         "name": "ESPN 7",
         "icono": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91513_dark_360w_270h.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/26.m3u8",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=5fc7b662e69c0fbf8d39691166b1c919&key=89157cdd25df25d56f1ecccee3850888",
         "type": "CLEARKEY",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
@@ -345,7 +345,7 @@
       {
         "name": "ESPN PREMIUM",
         "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTc5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png",
-        "url": "http://38.41.8.1:8000/play/a0t7",
+        "url": "https://edge-live04-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzc1OTQzNTAyIiwic2lwIjoiNDUuMjI4LjY3LjI4IiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmMvIiwic2Vzc2lvbl9jZG5faWQiOiJjMzViZDkwYjUzODYxMjQwIiwic2Vzc2lvbl9pZCI6ImU0OWQxYTczNDQ5YjUwNWJkZjJiZTZiMzNlNjZjODIxLTE3NzU3NzA3MDItMzg3IiwiY2xpZW50X2lkIjoiZmxvdzo5OTk5MDAwMDEzNTM3MjItLWZsb3c6OTk5OTAwMDAxMzUzNzIyOlA6MTE1MTEzMjciLCJkZXZpY2VfaWQiOiJlNDlkMWE3MzQ0OWI1MDViZGYyYmU2YjMzZTY2YzgyMSIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjI5OSIsInNvdXJjZXMiOls4NSwxNDQsODYsODhdfQ==.96cjH4Qxd0XGQn_9uu6YBKFzOYKqJuTe124KhwLNOcF9qkdMa8MWzWmq_0HLB6OdRaK_WkjBxrXURkoCM5SZ9w==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc/Fox_Sports_Premiun_HD.mpd",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=4c230dbc7f6a4bfa6ad0aa73ff792374&key=4186a7c2a15f590a9399886feaec4257",
         "user": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
         "type": "CLEARKEY"
