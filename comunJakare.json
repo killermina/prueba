@@ -2,52 +2,40 @@
   {
     "type": "category",
     "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
-    "title": "🇵🇾TIGO SPORTS🇵🇾",
+    "title": "Actualice Su App",
     "items": [
       {
-        "name": "EVENTO 1 HD",
+        "name": "esta version",
         "url": "https://d3kzwqwnq1f7tq.cloudfront.net/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://dl.dropboxusercontent.com/scl/fi/bify73qa6pam1h5op5mg4/tigo3.json?rlkey=r2r6qmvzobpn1tib3n068ap1z&st=2jfgsr87&dl=0",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
       {
-        "name": "EVENTOS PLUS HD",
+        "name": "sera dado",
         "url": "https://d2jluxxgx550su.cloudfront.net/out/v1/62de20495af84f908fa8963f50c44d46/index.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://vimetrix.lat/api/license.php?keyid=49b2c0e7037042b2aff9f064e0bb3311&key=83849e30adf85440550292693147fbf7",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
       {
-        "name": "EVENTOS 3 HD",
+        "name": "de baja",
         "url": "https://sam-py-edge05.tigo.com.py/ccur-session/b0ff0175ef73e3239d6ec1a7441c501e&cfi=JVMDxRwC4M6u54XZGwnSrlZY/out/v1/c2cc7832b5b64aedacb0e459fd9d8398/index.mpd",
         "type": "CLEARKEY",
         "drm_license_uri": "https://magisvideo.com/KEYFLOW/TIGO3.json",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
       },
       {
-        "name": "En Vivo",
+        "name": "24hs",
         "url": "http://45.170.130.224:8000/play/a04i/index.m3u8",
         "icono": "https://i.ibb.co/Cs77Ttc7/tig-rezise.png"
-      },
-      {
-        "name": "TIGO WEB 1",
-        "type": "webview",
-        "url": "https://killermina.github.io/mi-player-html/",
-        "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
-      },
-      {
-        "name": "TIGO WEB 2",
-        "type": "webview",
-        "url": "https://killermina.github.io/player2/",
-        "icono": "https://i.ibb.co/1fZk2KkT/KN-rezice.png"
       }
     ]
   },
   {
     "type": "category",
     "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
-    "title": "⚽EVENTOS FLOW COPA DEL REY⚽",
+    "title": "actualice su app",
     "items": [
       {
         "name": "EVENTOS FLOW 1 COPA DEL REY",
@@ -90,7 +78,7 @@
   {
     "type": "category",
     "image": "https://i.ibb.co/k6cgFLwt/paraguay.png",
-    "title": "🇵🇾PARAGUAY🇵🇾",
+    "title": "actualice su app",
     "items": [
       {
         "name": "VISIÓN TV VILLARRICA",
@@ -202,7 +190,7 @@
   {
     "type": "category",
     "image": "https://i.ibb.co/zbWxZ95/fs1.png",
-    "title": "Argentina",
+    "title": "actualice su app",
     "items": [
       {
         "name": "America TV",
@@ -1498,508 +1486,6 @@
         "icono": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/87e940da-d9b1-4e7b-bf1b-499f3b0afe16.jpeg"
       }
     ]
-  },
-  {
-    "visible": "false",
-    "type": "category",
-    "image": "https://i.ibb.co/5X20hxjL/KN-copia-4.png",
-    "title": "Prueba",
-    "items": [
-      {
-        "name": "24h",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/4.m3u8"
-      },
-      {
-        "name": "A&E",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/5.m3u8"
-      },
-      {
-        "name": "A24",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/6.m3u8"
-      },
-      {
-        "name": "Abc Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8"
-      },
-      {
-        "name": "Adult Swim",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/8.m3u8"
-      },
-      {
-        "name": "Amc Series",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/42.m3u8"
-      },
-      {
-        "name": "America Paraguay",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/83.m3u8"
-      },
-      {
-        "name": "Axn",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/10.m3u8"
-      },
-      {
-        "name": "Babytv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/11.m3u8"
-      },
-      {
-        "name": "Band Brasil",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/77.m3u8"
-      },
-      {
-        "name": "Brasil",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/80.m3u8"
-      },
-      {
-        "name": "C9n",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1443.m3u8"
-      },
-      {
-        "name": "Caminos Do Brasil",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/94.m3u8"
-      },
-      {
-        "name": "Cámara Puente",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1534.m3u8"
-      },
-      {
-        "name": "Cartoon Network",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/115.m3u8"
-      },
-      {
-        "name": "Cartoonito",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/70.m3u8"
-      },
-      {
-        "name": "Cine Canal",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/17.m3u8"
-      },
-      {
-        "name": "Cine Familiar",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/14.m3u8"
-      },
-      {
-        "name": "Cine Hispano",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/15.m3u8"
-      },
-      {
-        "name": "Cine Premium",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/16.m3u8"
-      },
-      {
-        "name": "Combate Ufc",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/73.m3u8"
-      },
-      {
-        "name": "Comedy Central",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/87.m3u8"
-      },
-      {
-        "name": "D",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/60.m3u8"
-      },
-      {
-        "name": "Discovery Channel",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/20.m3u8"
-      },
-      {
-        "name": "Discovery Theater",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/21.m3u8"
-      },
-      {
-        "name": "Disney Jr",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/114.m3u8"
-      },
-      {
-        "name": "Dp News",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/112.m3u8"
-      },
-      {
-        "name": "Dw Noticias",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/102.m3u8"
-      },
-      {
-        "name": "El Trece",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/82.m3u8"
-      },
-      {
-        "name": "Espn",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/89.m3u8"
-      },
-      {
-        "name": "Espn 2",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/88.m3u8"
-      },
-      {
-        "name": "Espn 3",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/90.m3u8"
-      },
-      {
-        "name": "Espn 4",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/91.m3u8"
-      },
-      {
-        "name": "Espn 5",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/92.m3u8"
-      },
-      {
-        "name": "Espn 6",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/25.m3u8"
-      },
-      {
-        "name": "Espn 7",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/26.m3u8"
-      },
-      {
-        "name": "Espn Premium",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/116.m3u8"
-      },
-      {
-        "name": "Farra Play",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/28.m3u8"
-      },
-      {
-        "name": "Film & Arts",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/29.m3u8"
-      },
-      {
-        "name": "Fox Sports 2",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/91.m3u8"
-      },
-      {
-        "name": "Fox Sports 3",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1552.m3u8"
-      },
-      {
-        "name": "France 24",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/104.m3u8"
-      },
-      {
-        "name": "Free Tv Drama",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/95.m3u8"
-      },
-      {
-        "name": "Free Tv Estelar",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/96.m3u8"
-      },
-      {
-        "name": "Gen Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1847.m3u8"
-      },
-      {
-        "name": "Hbo",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/32.m3u8"
-      },
-      {
-        "name": "Hbo 2",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/30.m3u8"
-      },
-      {
-        "name": "Hbo Family",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/31.m3u8"
-      },
-      {
-        "name": "Hbo Max",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/32.m3u8"
-      },
-      {
-        "name": "Hbo Mundi",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/33.m3u8"
-      },
-      {
-        "name": "Hbo Plus",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/36.m3u8"
-      },
-      {
-        "name": "Hbo Signature",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/34.m3u8"
-      },
-      {
-        "name": "Hbo Xtreme",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/35.m3u8"
-      },
-      {
-        "name": "History",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8"
-      },
-      {
-        "name": "History Channel",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8"
-      },
-      {
-        "name": "Hola Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/38.m3u8"
-      },
-      {
-        "name": "Htv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/40.m3u8"
-      },
-      {
-        "name": "Hyh Discovery",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8"
-      },
-      {
-        "name": "Id Discovery",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8"
-      },
-      {
-        "name": "La Tele",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/117.m3u8"
-      },
-      {
-        "name": "Las Estrellas",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/121.m3u8"
-      },
-      {
-        "name": "Love Nature",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/84.m3u8"
-      },
-      {
-        "name": "Mp",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/67.m3u8"
-      },
-      {
-        "name": "Nat Geo",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/45.m3u8"
-      },
-      {
-        "name": "Npy",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/71.m3u8"
-      },
-      {
-        "name": "Paraguay Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/118.m3u8"
-      },
-      {
-        "name": "Paravision",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/120.m3u8"
-      },
-      {
-        "name": "Pasiones",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/47.m3u8"
-      },
-      {
-        "name": "Record Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/79.m3u8"
-      },
-      {
-        "name": "Sbt",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/78.m3u8"
-      },
-      {
-        "name": "Sony Channel",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/49.m3u8"
-      },
-      {
-        "name": "Space",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/50.m3u8"
-      },
-      {
-        "name": "Star",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/52.m3u8"
-      },
-      {
-        "name": "Star Channel",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/51.m3u8"
-      },
-      {
-        "name": "Snt",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/113.m3u8"
-      },
-      {
-        "name": "Sur Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1596.m3u8"
-      },
-      {
-        "name": "Tastemade Plus (Comidas)",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/100.m3u8"
-      },
-      {
-        "name": "Telefe",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/81.m3u8"
-      },
-      {
-        "name": "Telefuturo",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/74.m3u8"
-      },
-      {
-        "name": "Telemundo Internacional",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/54.m3u8"
-      },
-      {
-        "name": "Tln Novelas",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/75.m3u8"
-      },
-      {
-        "name": "Tn",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/55.m3u8"
-      },
-      {
-        "name": "Tnt",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/56.m3u8"
-      },
-      {
-        "name": "Tnt Novelas",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/57.m3u8"
-      },
-      {
-        "name": "Tnt Sports Premium",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8"
-      },
-      {
-        "name": "Tooncast",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8"
-      },
-      {
-        "name": "Transcontinental",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/76.m3u8"
-      },
-      {
-        "name": "Tv5 Monde",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/59.m3u8"
-      },
-      {
-        "name": "Tv Camara",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/119.m3u8"
-      },
-      {
-        "name": "Tv Padeltime",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/43.m3u8"
-      },
-      {
-        "name": "Unicanal",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/72.m3u8"
-      },
-      {
-        "name": "Universal Cinema",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/61.m3u8"
-      },
-      {
-        "name": "Universal Comedy",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/62.m3u8"
-      },
-      {
-        "name": "Universal Crime",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/63.m3u8"
-      },
-      {
-        "name": "Universal Plus",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/65.m3u8"
-      },
-      {
-        "name": "Universal Premiere",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/64.m3u8"
-      },
-      {
-        "name": "Universal Studio",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/53.m3u8"
-      },
-      {
-        "name": "Venus Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/66.m3u8"
-      },
-      {
-        "name": "Warnerbros Tv",
-        "icono": "https://i.ibb.co/67Vth99Q/tv-Cico.png",
-        "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/68.m3u8"
-      }
-    ]
   }
-]
+    ]
+  
